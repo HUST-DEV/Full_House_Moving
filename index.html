@@ -1,374 +1,1838 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fullhouse Moving – Chuyển Nhà Trọn Gói Uy Tín | Toàn Quốc</title>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<style>
-:root{
-  --navy:      #0D1E4F;
-  --navy-mid:  #142A6B;
-  --navy-dark: #090F2A;
-  --navy-lite: #1E3A8A;
-  --sky:       #38BDF8;
-  --sky-lite:  #BAE6FD;
-  --orange:    #F97316;
-  --orange-lt: #FFEDD5;
-  --amber:     #F59E0B;
-  --amber-lt:  #FEF3C7;
-  --green:     #22C55E;
-  --white:     #FFFFFF;
-  --off:       #F5F7FF;
-  --g100:      #EEF1FA;
-  --g300:      #C5CDE8;
-  --g500:      #7B87B0;
-  --g700:      #3D4D7A;
-  --g900:      #0D1E4F;
-  --r:         14px;
-  --r-lg:      20px;
-  --sh:        0 4px 24px rgba(13,30,79,.10);
-  --sh-md:     0 8px 40px rgba(13,30,79,.15);
-  --sh-lg:     0 20px 60px rgba(13,30,79,.22);
-  --tr:        all .3s cubic-bezier(.4,0,.2,1);
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Be Vietnam Pro',sans-serif;background:var(--white);color:var(--g900);line-height:1.7;font-size:16px;overflow-x:hidden}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullhouse Moving – Chuyển Nhà Trọn Gói Uy Tín | Toàn Quốc</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --navy: #0D1E4F;
+      --navy-mid: #142A6B;
+      --navy-dark: #090F2A;
+      --navy-lite: #1E3A8A;
+      --sky: #38BDF8;
+      --sky-lite: #BAE6FD;
+      --orange: #F97316;
+      --orange-lt: #FFEDD5;
+      --amber: #F59E0B;
+      --amber-lt: #FEF3C7;
+      --green: #22C55E;
+      --white: #FFFFFF;
+      --off: #F5F7FF;
+      --g100: #EEF1FA;
+      --g300: #C5CDE8;
+      --g500: #7B87B0;
+      --g700: #3D4D7A;
+      --g900: #0D1E4F;
+      --r: 14px;
+      --r-lg: 20px;
+      --sh: 0 4px 24px rgba(13, 30, 79, .10);
+      --sh-md: 0 8px 40px rgba(13, 30, 79, .15);
+      --sh-lg: 0 20px 60px rgba(13, 30, 79, .22);
+      --tr: all .3s cubic-bezier(.4, 0, .2, 1);
+    }
 
-/* ── TOPBAR ── */
-.topbar{background:var(--navy-dark);padding:8px 24px;text-align:center;font-size:13px;color:rgba(255,255,255,.65);letter-spacing:.3px}
-.topbar span{color:var(--amber);font-weight:600}
-.topbar a{color:var(--sky-lite);text-decoration:none;font-weight:600}
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
 
-/* ── NAVBAR ── */
-.navbar{position:sticky;top:0;z-index:200;background:var(--navy);box-shadow:0 2px 20px rgba(13,30,79,.4)}
-.nav-in{max-width:1300px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:72px}
-.logo{display:flex;align-items:center;gap:14px;text-decoration:none}
-.logo-ico{width:46px;height:46px;background:linear-gradient(135deg,var(--orange),var(--amber));border-radius:12px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(249,115,22,.4);flex-shrink:0}
-.logo-ico svg{width:26px;height:26px;fill:white}
-.logo-txt .name{font-family:'Sora',sans-serif;font-weight:800;font-size:20px;color:#fff;line-height:1.1;letter-spacing:-.3px}
-.logo-txt .sub{font-size:10px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:1.2px}
-nav ul{display:flex;align-items:center;gap:2px;list-style:none}
-nav ul a{display:block;padding:8px 15px;color:rgba(255,255,255,.75);text-decoration:none;font-size:14px;font-weight:500;border-radius:8px;transition:var(--tr);white-space:nowrap}
-nav ul a:hover{background:rgba(255,255,255,.1);color:#fff}
-.nav-call{display:flex;align-items:center;gap:10px}
-.nav-phone{display:flex;align-items:center;gap:8px;text-decoration:none;color:#fff;font-weight:700;font-size:15px;padding:8px 18px;border:2px solid rgba(255,255,255,.2);border-radius:10px;transition:var(--tr)}
-.nav-phone:hover{border-color:var(--amber);background:rgba(249,115,22,.1)}
-.nav-phone .ph-dot{width:8px;height:8px;background:var(--green);border-radius:50%;animation:blink 2s infinite}
-@keyframes blink{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,.5)}50%{box-shadow:0 0 0 5px rgba(34,197,94,0)}}
-.btn-quote{padding:10px 22px;background:linear-gradient(135deg,var(--orange),var(--amber));color:#fff;font-weight:700;font-size:14px;border-radius:10px;text-decoration:none;box-shadow:0 4px 16px rgba(249,115,22,.4);transition:var(--tr);white-space:nowrap}
-.btn-quote:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22,.5)}
+    html {
+      scroll-behavior: smooth
+    }
 
-/* ── HERO ── */
-.hero{background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 40%,var(--navy-lite) 100%);padding:90px 32px 110px;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 70% at 75% 60%,rgba(56,189,248,.10) 0%,transparent 65%),radial-gradient(ellipse 40% 50% at 5% 80%,rgba(249,115,22,.10) 0%,transparent 65%);pointer-events:none}
-.hero-dots{position:absolute;top:0;left:0;right:0;bottom:0;opacity:.06;background-image:radial-gradient(rgba(255,255,255,.8) 1px,transparent 1px);background-size:32px 32px;pointer-events:none}
-.hero-grid{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1fr 440px;gap:64px;align-items:center;position:relative;z-index:2}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(56,189,248,.12);border:1px solid rgba(56,189,248,.3);padding:7px 16px;border-radius:999px;color:var(--sky-lite);font-size:12.5px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;margin-bottom:24px}
-.hero-badge::before{content:'★';color:var(--amber)}
-.hero h1{font-family:'Sora',sans-serif;font-size:clamp(36px,4.2vw,60px);font-weight:800;line-height:1.1;color:#fff;margin-bottom:22px;letter-spacing:-.8px}
-.hero h1 .accent{color:var(--amber);display:block}
-.hero-desc{color:rgba(255,255,255,.68);font-size:17px;line-height:1.8;margin-bottom:38px;max-width:520px}
-.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:52px}
-.hbtn-a{display:inline-flex;align-items:center;gap:10px;padding:15px 32px;background:linear-gradient(135deg,var(--orange),var(--amber));color:#fff;font-weight:700;font-size:15px;border-radius:12px;text-decoration:none;box-shadow:0 6px 28px rgba(249,115,22,.5);transition:var(--tr)}
-.hbtn-a:hover{transform:translateY(-2px);box-shadow:0 10px 36px rgba(249,115,22,.6)}
-.hbtn-b{display:inline-flex;align-items:center;gap:10px;padding:13px 28px;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.25);color:#fff;font-weight:600;font-size:15px;border-radius:12px;text-decoration:none;transition:var(--tr)}
-.hbtn-b:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.5)}
-.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.1);border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.1)}
-.hstat{background:rgba(255,255,255,.04);padding:22px 20px;text-align:center}
-.hstat-n{font-family:'Sora',sans-serif;font-size:32px;font-weight:800;color:var(--amber);display:block;line-height:1}
-.hstat-l{font-size:12px;color:rgba(255,255,255,.5);margin-top:6px;letter-spacing:.3px}
+    body {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      background: var(--white);
+      color: var(--g900);
+      line-height: 1.7;
+      font-size: 16px;
+      overflow-x: hidden
+    }
 
-/* Hero form card */
-.hero-card{background:rgba(255,255,255,.06);backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:36px;box-shadow:var(--sh-lg)}
-.hcard-head{display:flex;align-items:center;gap:12px;margin-bottom:28px}
-.hcard-ico{width:44px;height:44px;background:linear-gradient(135deg,var(--orange),var(--amber));border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:20px;box-shadow:0 4px 14px rgba(249,115,22,.4)}
-.hcard-head h3{font-family:'Sora',sans-serif;font-size:17px;font-weight:700;color:#fff;line-height:1.3}
-.hcard-head p{font-size:12px;color:rgba(255,255,255,.5)}
-.fgroup{margin-bottom:14px}
-.fgroup label{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:rgba(255,255,255,.45);margin-bottom:7px}
-.fgroup input,.fgroup select{width:100%;padding:13px 16px;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.14);border-radius:10px;color:#fff;font-size:14px;font-family:'Be Vietnam Pro',sans-serif;outline:none;transition:var(--tr)}
-.fgroup input::placeholder{color:rgba(255,255,255,.3)}
-.fgroup select{color:rgba(255,255,255,.7)}
-.fgroup select option{background:var(--navy);color:#fff}
-.fgroup input:focus,.fgroup select:focus{border-color:var(--amber);background:rgba(255,255,255,.12);box-shadow:0 0 0 3px rgba(245,158,11,.18)}
-.frow2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.fbtn{width:100%;padding:14px;background:linear-gradient(135deg,var(--orange),var(--amber));color:#fff;font-family:'Sora',sans-serif;font-weight:700;font-size:15px;border:none;border-radius:12px;cursor:pointer;margin-top:6px;box-shadow:0 4px 20px rgba(249,115,22,.4);transition:var(--tr)}
-.fbtn:hover{transform:translateY(-1px);box-shadow:0 8px 28px rgba(249,115,22,.55)}
-.fguarantee{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:12px;font-size:12px;color:rgba(255,255,255,.4)}
-.fguarantee::before{content:'🔒';font-size:11px}
+    /* ── TOPBAR ── */
+    .topbar {
+      background: var(--navy-dark);
+      padding: 8px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: rgba(255, 255, 255, .65);
+      letter-spacing: .3px
+    }
 
-/* ── WHY US STRIP ── */
-.strip{background:var(--navy);padding:0 32px}
-.strip-in{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.08)}
-.strip-item{padding:28px 24px;border-right:1px solid rgba(255,255,255,.08);display:flex;align-items:center;gap:14px}
-.strip-item:last-child{border-right:none}
-.strip-ico{font-size:28px;flex-shrink:0}
-.strip-item strong{display:block;font-size:14px;font-weight:700;color:#fff;line-height:1.3}
-.strip-item span{font-size:12px;color:rgba(255,255,255,.45)}
+    .topbar span {
+      color: var(--amber);
+      font-weight: 600
+    }
 
-/* ── SECTION COMMONS ── */
-section{padding:96px 32px}
-.sec-in{max-width:1300px;margin:0 auto}
-.stag{display:inline-flex;align-items:center;gap:7px;background:var(--amber-lt);color:#92400e;font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;padding:5px 13px;border-radius:999px;margin-bottom:12px}
-.stag-blue{background:rgba(14,30,79,.07);color:var(--navy-mid)}
-.stag-sky{background:rgba(56,189,248,.12);color:#0369a1}
-.sh1{font-family:'Sora',sans-serif;font-size:clamp(28px,3.2vw,42px);font-weight:800;color:var(--navy);line-height:1.18;margin-bottom:14px;letter-spacing:-.5px}
-.sh1 span{color:var(--orange)}
-.ssub{color:var(--g500);font-size:17px;max-width:560px;line-height:1.75}
-.ctr{text-align:center}.ctr .ssub{margin:0 auto}
+    .topbar a {
+      color: var(--sky-lite);
+      text-decoration: none;
+      font-weight: 600
+    }
 
-/* ── SERVICES ── */
-.services-bg{background:var(--off)}
-.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
-.svc-card{background:var(--white);border-radius:var(--r-lg);padding:34px 30px;border:1.5px solid var(--g100);box-shadow:var(--sh);transition:var(--tr);cursor:pointer;position:relative;overflow:hidden}
-.svc-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--navy),var(--sky));transform:scaleX(0);transition:var(--tr);transform-origin:left}
-.svc-card:hover{transform:translateY(-8px);box-shadow:var(--sh-md);border-color:var(--g300)}
-.svc-card:hover::after{transform:scaleX(1)}
-.svc-ico{width:60px;height:60px;border-radius:16px;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:22px;transition:var(--tr);box-shadow:0 6px 20px rgba(13,30,79,.2)}
-.svc-card:hover .svc-ico{background:linear-gradient(135deg,var(--orange),var(--amber));box-shadow:0 8px 24px rgba(249,115,22,.35);transform:scale(1.08) rotate(-3deg)}
-.svc-card h3{font-family:'Sora',sans-serif;font-size:18px;font-weight:700;color:var(--navy);margin-bottom:10px}
-.svc-card p{color:var(--g500);font-size:14.5px;line-height:1.72}
-.svc-pill{display:inline-block;margin-top:18px;padding:4px 12px;background:var(--amber-lt);color:#92400e;font-size:11px;font-weight:700;border-radius:999px;text-transform:uppercase;letter-spacing:.5px}
-.svc-arrow{position:absolute;right:24px;bottom:24px;width:32px;height:32px;border-radius:50%;background:var(--g100);display:flex;align-items:center;justify-content:center;font-size:14px;transition:var(--tr);color:var(--g500)}
-.svc-card:hover .svc-arrow{background:var(--navy);color:#fff;transform:rotate(45deg)}
+    /* ── NAVBAR ── */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      background: var(--navy);
+      box-shadow: 0 2px 20px rgba(13, 30, 79, .4)
+    }
 
-/* ── STATS ── */
-.stats-sec{background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 50%,var(--navy-lite) 100%);padding:80px 32px;position:relative;overflow:hidden}
-.stats-sec::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 80% at 90% 50%,rgba(56,189,248,.1),transparent 65%);pointer-events:none}
-.stats-grid{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;z-index:2}
-.stat{text-align:center;padding:32px 20px;position:relative}
-.stat+.stat::before{content:'';position:absolute;left:0;top:25%;bottom:25%;width:1px;background:rgba(255,255,255,.15)}
-.stat-n{font-family:'Sora',sans-serif;font-size:48px;font-weight:800;color:var(--amber);line-height:1;display:block}
-.stat-u{font-size:20px;color:var(--orange)}
-.stat-l{font-size:14px;color:rgba(255,255,255,.55);margin-top:8px;letter-spacing:.3px}
-.stat-desc{font-size:12px;color:rgba(255,255,255,.35);margin-top:4px}
+    .nav-in {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      height: 72px
+    }
 
-/* ── WHY ── */
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:16px}
-.why-visual{position:relative}
-.why-img-wrap{border-radius:24px;overflow:hidden;box-shadow:var(--sh-lg)}
-.why-img{width:100%;height:400px;object-fit:cover;display:block;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-mid) 100%);position:relative}
-.why-img-placeholder{width:100%;height:400px;background:linear-gradient(135deg,var(--navy),var(--navy-lite));border-radius:24px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.why-img-placeholder::before{content:'🏠';font-size:120px;opacity:.15;position:absolute;transform:rotate(-10deg)}
-.why-badge-float{position:absolute;bottom:-20px;right:-20px;background:#fff;border-radius:16px;padding:18px 22px;box-shadow:var(--sh-md);text-align:center;min-width:130px}
-.wbf-n{font-family:'Sora',sans-serif;font-size:28px;font-weight:800;color:var(--navy);line-height:1}
-.wbf-l{font-size:12px;color:var(--g500);margin-top:4px}
-.why-points{display:flex;flex-direction:column;gap:22px;margin-top:36px}
-.why-point{display:flex;gap:18px;align-items:flex-start;padding:22px;background:var(--off);border-radius:14px;border-left:4px solid transparent;transition:var(--tr)}
-.why-point:hover{background:#fff;border-left-color:var(--orange);box-shadow:var(--sh)}
-.wp-ico{width:46px;height:46px;border-radius:12px;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;transition:var(--tr)}
-.why-point:hover .wp-ico{background:linear-gradient(135deg,var(--orange),var(--amber))}
-.wp-body h4{font-family:'Sora',sans-serif;font-size:15px;font-weight:700;color:var(--navy);margin-bottom:5px}
-.wp-body p{font-size:13.5px;color:var(--g500);line-height:1.65}
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none
+    }
 
-/* ── PROCESS ── */
-.process-bg{background:var(--off)}
-.process-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin-top:60px;position:relative}
-.process-steps::before{content:'';position:absolute;top:36px;left:10%;right:10%;height:2px;background:linear-gradient(90deg,var(--g300),var(--navy-lite),var(--g300));z-index:0}
-.pstep{text-align:center;position:relative;z-index:1}
-.pstep-num{width:72px;height:72px;border-radius:50%;background:var(--white);border:3px solid var(--g300);display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 auto 20px;transition:var(--tr);font-family:'Sora',sans-serif;font-size:22px;font-weight:800;color:var(--g300);box-shadow:var(--sh)}
-.pstep:hover .pstep-num,.pstep.active .pstep-num{background:var(--navy);border-color:var(--navy);color:#fff;transform:scale(1.12);box-shadow:0 8px 28px rgba(13,30,79,.3)}
-.pstep h4{font-family:'Sora',sans-serif;font-size:14px;font-weight:700;color:var(--navy);margin-bottom:8px}
-.pstep p{font-size:13px;color:var(--g500);line-height:1.6}
+    .logo-ico {
+      width: 46px;
+      height: 46px;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(249, 115, 22, .4);
+      flex-shrink: 0
+    }
 
-/* ── PRICE TABLE ── */
-.price-wrap{margin-top:56px;overflow:hidden;border-radius:20px;box-shadow:var(--sh-md);border:1px solid var(--g100)}
-table{width:100%;border-collapse:collapse}
-thead tr{background:var(--navy)}
-thead th{padding:18px 20px;text-align:left;color:#fff;font-family:'Sora',sans-serif;font-size:14px;font-weight:600;letter-spacing:.3px}
-thead th:first-child{border-radius:0}
-tbody tr{transition:var(--tr)}
-tbody tr:nth-child(even){background:var(--off)}
-tbody tr:hover{background:var(--amber-lt)}
-tbody td{padding:16px 20px;font-size:14.5px;color:var(--g700);border-bottom:1px solid var(--g100)}
-tbody tr:last-child td{border-bottom:none}
-.td-highlight{font-weight:700;color:var(--navy)}
-.td-price{color:var(--orange);font-weight:700}
-.price-note{margin-top:18px;padding:16px 20px;background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.2);border-radius:12px;font-size:13.5px;color:var(--g700);display:flex;align-items:center;gap:10px}
+    .logo-ico svg {
+      width: 26px;
+      height: 26px;
+      fill: white
+    }
 
-/* ── TESTIMONIALS ── */
-.testi-bg{background:var(--off)}
-.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
-.tcard{background:var(--white);border-radius:var(--r-lg);padding:32px;border:1px solid var(--g100);box-shadow:var(--sh);transition:var(--tr);position:relative}
-.tcard:hover{transform:translateY(-5px);box-shadow:var(--sh-md)}
-.tcard-stars{color:var(--amber);font-size:16px;margin-bottom:16px;letter-spacing:2px}
-.tcard-quote{position:absolute;top:24px;right:24px;font-size:40px;color:var(--amber);opacity:.15;font-family:Georgia,serif;line-height:1}
-.tcard p{font-size:14.5px;color:var(--g700);line-height:1.75;font-style:italic;margin-bottom:22px}
-.tcard-author{display:flex;align-items:center;gap:12px}
-.tauthor-av{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--navy),var(--sky));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:16px;flex-shrink:0}
-.tauthor-name{font-weight:700;font-size:14px;color:var(--navy)}
-.tauthor-loc{font-size:12px;color:var(--g500)}
-.tcard-service{display:inline-block;margin-top:14px;padding:4px 11px;background:var(--amber-lt);color:#92400e;font-size:11px;font-weight:600;border-radius:999px}
+    .logo-txt .name {
+      font-family: 'Sora', sans-serif;
+      font-weight: 800;
+      font-size: 20px;
+      color: #fff;
+      line-height: 1.1;
+      letter-spacing: -.3px
+    }
 
-/* ── COVERAGE ── */
-.coverage-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-top:48px}
-.coverage-map{background:var(--off);border-radius:20px;padding:36px;border:1px solid var(--g100)}
-.map-placeholder{width:100%;height:280px;background:linear-gradient(135deg,var(--g100),var(--off));border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--g500);font-size:14px}
-.map-ph-ico{font-size:48px;opacity:.4}
-.city-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}
-.city-tag{padding:8px 14px;background:var(--white);border:1px solid var(--g100);border-radius:8px;font-size:13px;color:var(--navy);font-weight:600;text-align:center;transition:var(--tr);cursor:pointer}
-.city-tag:hover{background:var(--navy);color:#fff;border-color:var(--navy);transform:scale(1.02)}
-.city-tag.active{background:var(--navy);color:#fff;border-color:var(--navy)}
-.coverage-info h3{font-family:'Sora',sans-serif;font-size:22px;font-weight:700;color:var(--navy);margin-bottom:12px}
-.coverage-info p{color:var(--g500);font-size:15px;line-height:1.75;margin-bottom:24px}
-.coverage-list{display:flex;flex-direction:column;gap:14px}
-.cov-item{display:flex;align-items:center;gap:14px;padding:16px 18px;background:var(--off);border-radius:12px;transition:var(--tr)}
-.cov-item:hover{background:#fff;box-shadow:var(--sh)}
-.cov-ico{width:40px;height:40px;background:var(--navy);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
-.cov-body strong{display:block;font-size:14px;font-weight:700;color:var(--navy)}
-.cov-body span{font-size:12.5px;color:var(--g500)}
+    .logo-txt .sub {
+      font-size: 10px;
+      color: rgba(255, 255, 255, .5);
+      text-transform: uppercase;
+      letter-spacing: 1.2px
+    }
 
-/* ── CTA BAND ── */
-.cta-band{background:linear-gradient(135deg,var(--orange) 0%,var(--amber) 100%);padding:72px 32px;text-align:center;position:relative;overflow:hidden}
-.cta-band::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 100% at 50% 50%,rgba(255,255,255,.12),transparent);pointer-events:none}
-.cta-band h2{font-family:'Sora',sans-serif;font-size:clamp(26px,3vw,42px);font-weight:800;color:#fff;margin-bottom:14px;position:relative;z-index:1}
-.cta-band p{color:rgba(255,255,255,.8);font-size:17px;margin-bottom:36px;position:relative;z-index:1}
-.cta-btns{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;position:relative;z-index:1}
-.cta-btn-a{padding:15px 36px;background:#fff;color:var(--orange);font-weight:800;font-size:15px;border-radius:12px;text-decoration:none;transition:var(--tr);box-shadow:0 6px 24px rgba(0,0,0,.15);font-family:'Sora',sans-serif}
-.cta-btn-a:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(0,0,0,.2)}
-.cta-btn-b{padding:13px 30px;background:transparent;border:2px solid rgba(255,255,255,.6);color:#fff;font-weight:700;font-size:15px;border-radius:12px;text-decoration:none;transition:var(--tr)}
-.cta-btn-b:hover{background:rgba(255,255,255,.15);border-color:#fff}
+    nav ul {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      list-style: none
+    }
 
-/* ── FAQ ── */
-.faq-grid{max-width:820px;margin:56px auto 0;display:flex;flex-direction:column;gap:14px}
-.faq-item{background:var(--off);border-radius:14px;border:1px solid var(--g100);overflow:hidden;transition:var(--tr)}
-.faq-item.open{background:#fff;box-shadow:var(--sh)}
-.faq-q{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;cursor:pointer;gap:16px;user-select:none}
-.faq-q span{font-weight:600;font-size:15px;color:var(--navy)}
-.faq-icon{width:30px;height:30px;border-radius:50%;background:var(--g100);display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--g500);transition:var(--tr);flex-shrink:0}
-.faq-item.open .faq-icon{background:var(--navy);color:#fff;transform:rotate(45deg)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s ease}
-.faq-item.open .faq-a{max-height:300px}
-.faq-a p{padding:0 24px 20px;color:var(--g500);font-size:14.5px;line-height:1.75}
+    nav ul a {
+      display: block;
+      padding: 8px 15px;
+      color: rgba(255, 255, 255, .75);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: var(--tr);
+      white-space: nowrap
+    }
 
-/* ── FOOTER ── */
-footer{background:var(--navy-dark);padding:72px 32px 0}
-.footer-grid{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:56px;border-bottom:1px solid rgba(255,255,255,.08)}
-.footer-brand .logo{margin-bottom:18px;display:inline-flex}
-.footer-brand p{color:rgba(255,255,255,.45);font-size:14px;line-height:1.75;margin-bottom:24px}
-.footer-social{display:flex;gap:10px}
-.fsoc{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;font-size:16px;text-decoration:none;transition:var(--tr);color:rgba(255,255,255,.6)}
-.fsoc:hover{background:var(--orange);color:#fff}
-.footer-col h4{font-family:'Sora',sans-serif;font-size:14px;font-weight:700;color:#fff;margin-bottom:18px;letter-spacing:.3px}
-.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
-.footer-col ul a{color:rgba(255,255,255,.45);text-decoration:none;font-size:14px;transition:var(--tr)}
-.footer-col ul a:hover{color:var(--amber);padding-left:4px}
-.fcontact-item{display:flex;align-items:flex-start;gap:10px;margin-bottom:14px}
-.fcontact-ico{font-size:15px;flex-shrink:0;margin-top:2px}
-.fcontact-item p{font-size:13.5px;color:rgba(255,255,255,.45);line-height:1.6}
-.fcontact-item strong{color:rgba(255,255,255,.8);font-size:14px}
-.footer-bottom{max-width:1300px;margin:0 auto;padding:24px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.footer-bottom p{font-size:13px;color:rgba(255,255,255,.3)}
-.footer-certs{display:flex;gap:10px;align-items:center}
-.fcert{padding:4px 10px;border:1px solid rgba(255,255,255,.15);border-radius:6px;font-size:11px;color:rgba(255,255,255,.4);font-weight:600}
+    nav ul a:hover {
+      background: rgba(255, 255, 255, .1);
+      color: #fff
+    }
 
-/* ── FLOATING ACTIONS ── */
-.float-actions{position:fixed;bottom:28px;right:28px;z-index:500;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
-.float-phone{display:flex;align-items:center;gap:10px;background:var(--navy);color:#fff;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 6px 24px rgba(13,30,79,.4);transition:var(--tr);animation:float-pulse 3s ease-in-out infinite}
-.float-phone:hover{background:var(--navy-lite);transform:scale(1.04)}
-@keyframes float-pulse{0%,100%{box-shadow:0 6px 24px rgba(13,30,79,.4)}50%{box-shadow:0 10px 36px rgba(13,30,79,.6)}}
-.float-zalo{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#0068FF,#00AAFF);display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 6px 20px rgba(0,104,255,.4);text-decoration:none;transition:var(--tr);color:#fff;font-weight:800;font-size:16px}
-.float-zalo:hover{transform:scale(1.1);box-shadow:0 10px 28px rgba(0,104,255,.5)}
+    .nav-call {
+      display: flex;
+      align-items: center;
+      gap: 10px
+    }
 
-/* ── RESPONSIVE ── */
-@media(max-width:1100px){
-  .hero-grid{grid-template-columns:1fr 380px;gap:40px}
-  .svc-grid{grid-template-columns:repeat(2,1fr)}
-  .footer-grid{grid-template-columns:1fr 1fr}
-  .stats-grid{grid-template-columns:repeat(2,1fr)}
-  .stat+.stat::before{display:none}
-}
-@media(max-width:800px){
-  .nav-in{padding:0 16px}.nav-links-wrap,.nav-phone{display:none}
-  .hero{padding:60px 20px 80px}
-  .hero-grid{grid-template-columns:1fr;gap:40px}
-  .why-grid,.coverage-grid{grid-template-columns:1fr}
-  .process-steps{grid-template-columns:repeat(2,1fr)}.process-steps::before{display:none}
-  .testi-grid{grid-template-columns:1fr}
-  section{padding:64px 20px}
-  .strip-in{grid-template-columns:1fr 1fr}
-  .footer-grid{grid-template-columns:1fr}
-}
-</style>
+    .nav-phone {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 8px 18px;
+      border: 2px solid rgba(255, 255, 255, .2);
+      border-radius: 10px;
+      transition: var(--tr)
+    }
+
+    .nav-phone:hover {
+      border-color: var(--amber);
+      background: rgba(249, 115, 22, .1)
+    }
+
+    .nav-phone .ph-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: blink 2s infinite
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, .5)
+      }
+
+      50% {
+        box-shadow: 0 0 0 5px rgba(34, 197, 94, 0)
+      }
+    }
+
+    .btn-quote {
+      padding: 10px 22px;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(249, 115, 22, .4);
+      transition: var(--tr);
+      white-space: nowrap
+    }
+
+    .btn-quote:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(249, 115, 22, .5)
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 40%, var(--navy-lite) 100%);
+      padding: 90px 32px 110px;
+      position: relative;
+      overflow: hidden
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 70% at 75% 60%, rgba(56, 189, 248, .10) 0%, transparent 65%), radial-gradient(ellipse 40% 50% at 5% 80%, rgba(249, 115, 22, .10) 0%, transparent 65%);
+      pointer-events: none
+    }
+
+    .hero-dots {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .06;
+      background-image: radial-gradient(rgba(255, 255, 255, .8) 1px, transparent 1px);
+      background-size: 32px 32px;
+      pointer-events: none
+    }
+
+    .hero-grid {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 440px;
+      gap: 64px;
+      align-items: center;
+      position: relative;
+      z-index: 2
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(56, 189, 248, .12);
+      border: 1px solid rgba(56, 189, 248, .3);
+      padding: 7px 16px;
+      border-radius: 999px;
+      color: var(--sky-lite);
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+      margin-bottom: 24px
+    }
+
+    .hero-badge::before {
+      content: '★';
+      color: var(--amber)
+    }
+
+    .hero h1 {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(36px, 4.2vw, 60px);
+      font-weight: 800;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 22px;
+      letter-spacing: -.8px
+    }
+
+    .hero h1 .accent {
+      color: var(--amber);
+      display: block
+    }
+
+    .hero-desc {
+      color: rgba(255, 255, 255, .68);
+      font-size: 17px;
+      line-height: 1.8;
+      margin-bottom: 38px;
+      max-width: 520px
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 52px
+    }
+
+    .hbtn-a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 32px;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 6px 28px rgba(249, 115, 22, .5);
+      transition: var(--tr)
+    }
+
+    .hbtn-a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(249, 115, 22, .6)
+    }
+
+    .hbtn-b {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 28px;
+      background: rgba(255, 255, 255, .08);
+      border: 2px solid rgba(255, 255, 255, .25);
+      color: #fff;
+      font-weight: 600;
+      font-size: 15px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: var(--tr)
+    }
+
+    .hbtn-b:hover {
+      background: rgba(255, 255, 255, .14);
+      border-color: rgba(255, 255, 255, .5)
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(255, 255, 255, .1);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, .1)
+    }
+
+    .hstat {
+      background: rgba(255, 255, 255, .04);
+      padding: 22px 20px;
+      text-align: center
+    }
+
+    .hstat-n {
+      font-family: 'Sora', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--amber);
+      display: block;
+      line-height: 1
+    }
+
+    .hstat-l {
+      font-size: 12px;
+      color: rgba(255, 255, 255, .5);
+      margin-top: 6px;
+      letter-spacing: .3px
+    }
+
+    /* Hero form card */
+    .hero-card {
+      background: rgba(255, 255, 255, .06);
+      backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, .14);
+      border-radius: 24px;
+      padding: 36px;
+      box-shadow: var(--sh-lg)
+    }
+
+    .hcard-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 28px
+    }
+
+    .hcard-ico {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      border-radius: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      box-shadow: 0 4px 14px rgba(249, 115, 22, .4)
+    }
+
+    .hcard-head h3 {
+      font-family: 'Sora', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.3
+    }
+
+    .hcard-head p {
+      font-size: 12px;
+      color: rgba(255, 255, 255, .5)
+    }
+
+    .fgroup {
+      margin-bottom: 14px
+    }
+
+    .fgroup label {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      color: rgba(255, 255, 255, .45);
+      margin-bottom: 7px
+    }
+
+    .fgroup input,
+    .fgroup select {
+      width: 100%;
+      padding: 13px 16px;
+      background: rgba(255, 255, 255, .08);
+      border: 1.5px solid rgba(255, 255, 255, .14);
+      border-radius: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-family: 'Be Vietnam Pro', sans-serif;
+      outline: none;
+      transition: var(--tr)
+    }
+
+    .fgroup input::placeholder {
+      color: rgba(255, 255, 255, .3)
+    }
+
+    .fgroup select {
+      color: rgba(255, 255, 255, .7)
+    }
+
+    .fgroup select option {
+      background: var(--navy);
+      color: #fff
+    }
+
+    .fgroup input:focus,
+    .fgroup select:focus {
+      border-color: var(--amber);
+      background: rgba(255, 255, 255, .12);
+      box-shadow: 0 0 0 3px rgba(245, 158, 11, .18)
+    }
+
+    .frow2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px
+    }
+
+    .fbtn {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      color: #fff;
+      font-family: 'Sora', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      margin-top: 6px;
+      box-shadow: 0 4px 20px rgba(249, 115, 22, .4);
+      transition: var(--tr)
+    }
+
+    .fbtn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 28px rgba(249, 115, 22, .55)
+    }
+
+    .fguarantee {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 12px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, .4)
+    }
+
+    .fguarantee::before {
+      content: '🔒';
+      font-size: 11px
+    }
+
+    /* ── WHY US STRIP ── */
+    .strip {
+      background: var(--navy);
+      padding: 0 32px
+    }
+
+    .strip-in {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid rgba(255, 255, 255, .08)
+    }
+
+    .strip-item {
+      padding: 28px 24px;
+      border-right: 1px solid rgba(255, 255, 255, .08);
+      display: flex;
+      align-items: center;
+      gap: 14px
+    }
+
+    .strip-item:last-child {
+      border-right: none
+    }
+
+    .strip-ico {
+      font-size: 28px;
+      flex-shrink: 0
+    }
+
+    .strip-item strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.3
+    }
+
+    .strip-item span {
+      font-size: 12px;
+      color: rgba(255, 255, 255, .45)
+    }
+
+    /* ── SECTION COMMONS ── */
+    section {
+      padding: 96px 32px
+    }
+
+    .sec-in {
+      max-width: 1300px;
+      margin: 0 auto
+    }
+
+    .stag {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--amber-lt);
+      color: #92400e;
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      padding: 5px 13px;
+      border-radius: 999px;
+      margin-bottom: 12px
+    }
+
+    .stag-blue {
+      background: rgba(14, 30, 79, .07);
+      color: var(--navy-mid)
+    }
+
+    .stag-sky {
+      background: rgba(56, 189, 248, .12);
+      color: #0369a1
+    }
+
+    .sh1 {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(28px, 3.2vw, 42px);
+      font-weight: 800;
+      color: var(--navy);
+      line-height: 1.18;
+      margin-bottom: 14px;
+      letter-spacing: -.5px
+    }
+
+    .sh1 span {
+      color: var(--orange)
+    }
+
+    .ssub {
+      color: var(--g500);
+      font-size: 17px;
+      max-width: 560px;
+      line-height: 1.75
+    }
+
+    .ctr {
+      text-align: center
+    }
+
+    .ctr .ssub {
+      margin: 0 auto
+    }
+
+    /* ── SERVICES ── */
+    .services-bg {
+      background: var(--off)
+    }
+
+    .svc-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 56px
+    }
+
+    .svc-card {
+      background: var(--white);
+      border-radius: var(--r-lg);
+      padding: 34px 30px;
+      border: 1.5px solid var(--g100);
+      box-shadow: var(--sh);
+      transition: var(--tr);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden
+    }
+
+    .svc-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--navy), var(--sky));
+      transform: scaleX(0);
+      transition: var(--tr);
+      transform-origin: left
+    }
+
+    .svc-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--sh-md);
+      border-color: var(--g300)
+    }
+
+    .svc-card:hover::after {
+      transform: scaleX(1)
+    }
+
+    .svc-ico {
+      width: 60px;
+      height: 60px;
+      border-radius: 16px;
+      background: var(--navy);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin-bottom: 22px;
+      transition: var(--tr);
+      box-shadow: 0 6px 20px rgba(13, 30, 79, .2)
+    }
+
+    .svc-card:hover .svc-ico {
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      box-shadow: 0 8px 24px rgba(249, 115, 22, .35);
+      transform: scale(1.08) rotate(-3deg)
+    }
+
+    .svc-card h3 {
+      font-family: 'Sora', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px
+    }
+
+    .svc-card p {
+      color: var(--g500);
+      font-size: 14.5px;
+      line-height: 1.72
+    }
+
+    .svc-pill {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 4px 12px;
+      background: var(--amber-lt);
+      color: #92400e;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: .5px
+    }
+
+    .svc-arrow {
+      position: absolute;
+      right: 24px;
+      bottom: 24px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--g100);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      transition: var(--tr);
+      color: var(--g500)
+    }
+
+    .svc-card:hover .svc-arrow {
+      background: var(--navy);
+      color: #fff;
+      transform: rotate(45deg)
+    }
+
+    /* ── STATS ── */
+    .stats-sec {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-lite) 100%);
+      padding: 80px 32px;
+      position: relative;
+      overflow: hidden
+    }
+
+    .stats-sec::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 50% 80% at 90% 50%, rgba(56, 189, 248, .1), transparent 65%);
+      pointer-events: none
+    }
+
+    .stats-grid {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      position: relative;
+      z-index: 2
+    }
+
+    .stat {
+      text-align: center;
+      padding: 32px 20px;
+      position: relative
+    }
+
+    .stat+.stat::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 25%;
+      bottom: 25%;
+      width: 1px;
+      background: rgba(255, 255, 255, .15)
+    }
+
+    .stat-n {
+      font-family: 'Sora', sans-serif;
+      font-size: 48px;
+      font-weight: 800;
+      color: var(--amber);
+      line-height: 1;
+      display: block
+    }
+
+    .stat-u {
+      font-size: 20px;
+      color: var(--orange)
+    }
+
+    .stat-l {
+      font-size: 14px;
+      color: rgba(255, 255, 255, .55);
+      margin-top: 8px;
+      letter-spacing: .3px
+    }
+
+    .stat-desc {
+      font-size: 12px;
+      color: rgba(255, 255, 255, .35);
+      margin-top: 4px
+    }
+
+    /* ── WHY ── */
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      margin-top: 16px
+    }
+
+    .why-visual {
+      position: relative
+    }
+
+    .why-img-wrap {
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--sh-lg)
+    }
+
+    .why-img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      position: relative
+    }
+
+    .why-img-placeholder {
+      width: 100%;
+      height: 400px;
+      background: linear-gradient(135deg, var(--navy), var(--navy-lite));
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden
+    }
+
+    .why-img-placeholder::before {
+      content: '🏠';
+      font-size: 120px;
+      opacity: .15;
+      position: absolute;
+      transform: rotate(-10deg)
+    }
+
+    .why-badge-float {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      background: #fff;
+      border-radius: 16px;
+      padding: 18px 22px;
+      box-shadow: var(--sh-md);
+      text-align: center;
+      min-width: 130px
+    }
+
+    .wbf-n {
+      font-family: 'Sora', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--navy);
+      line-height: 1
+    }
+
+    .wbf-l {
+      font-size: 12px;
+      color: var(--g500);
+      margin-top: 4px
+    }
+
+    .why-points {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      margin-top: 36px
+    }
+
+    .why-point {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      padding: 22px;
+      background: var(--off);
+      border-radius: 14px;
+      border-left: 4px solid transparent;
+      transition: var(--tr)
+    }
+
+    .why-point:hover {
+      background: #fff;
+      border-left-color: var(--orange);
+      box-shadow: var(--sh)
+    }
+
+    .wp-ico {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: var(--navy);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+      transition: var(--tr)
+    }
+
+    .why-point:hover .wp-ico {
+      background: linear-gradient(135deg, var(--orange), var(--amber))
+    }
+
+    .wp-body h4 {
+      font-family: 'Sora', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 5px
+    }
+
+    .wp-body p {
+      font-size: 13.5px;
+      color: var(--g500);
+      line-height: 1.65
+    }
+
+    /* ── PROCESS ── */
+    .process-bg {
+      background: var(--off)
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 24px;
+      margin-top: 60px;
+      position: relative
+    }
+
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      top: 36px;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(90deg, var(--g300), var(--navy-lite), var(--g300));
+      z-index: 0
+    }
+
+    .pstep {
+      text-align: center;
+      position: relative;
+      z-index: 1
+    }
+
+    .pstep-num {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: var(--white);
+      border: 3px solid var(--g300);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      transition: var(--tr);
+      font-family: 'Sora', sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--g300);
+      box-shadow: var(--sh)
+    }
+
+    .pstep:hover .pstep-num,
+    .pstep.active .pstep-num {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: #fff;
+      transform: scale(1.12);
+      box-shadow: 0 8px 28px rgba(13, 30, 79, .3)
+    }
+
+    .pstep h4 {
+      font-family: 'Sora', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px
+    }
+
+    .pstep p {
+      font-size: 13px;
+      color: var(--g500);
+      line-height: 1.6
+    }
+
+    /* ── PRICE TABLE ── */
+    .price-wrap {
+      margin-top: 56px;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: var(--sh-md);
+      border: 1px solid var(--g100)
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse
+    }
+
+    thead tr {
+      background: var(--navy)
+    }
+
+    thead th {
+      padding: 18px 20px;
+      text-align: left;
+      color: #fff;
+      font-family: 'Sora', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .3px
+    }
+
+    thead th:first-child {
+      border-radius: 0
+    }
+
+    tbody tr {
+      transition: var(--tr)
+    }
+
+    tbody tr:nth-child(even) {
+      background: var(--off)
+    }
+
+    tbody tr:hover {
+      background: var(--amber-lt)
+    }
+
+    tbody td {
+      padding: 16px 20px;
+      font-size: 14.5px;
+      color: var(--g700);
+      border-bottom: 1px solid var(--g100)
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none
+    }
+
+    .td-highlight {
+      font-weight: 700;
+      color: var(--navy)
+    }
+
+    .td-price {
+      color: var(--orange);
+      font-weight: 700
+    }
+
+    .price-note {
+      margin-top: 18px;
+      padding: 16px 20px;
+      background: rgba(56, 189, 248, .08);
+      border: 1px solid rgba(56, 189, 248, .2);
+      border-radius: 12px;
+      font-size: 13.5px;
+      color: var(--g700);
+      display: flex;
+      align-items: center;
+      gap: 10px
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testi-bg {
+      background: var(--off)
+    }
+
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 56px
+    }
+
+    .tcard {
+      background: var(--white);
+      border-radius: var(--r-lg);
+      padding: 32px;
+      border: 1px solid var(--g100);
+      box-shadow: var(--sh);
+      transition: var(--tr);
+      position: relative
+    }
+
+    .tcard:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--sh-md)
+    }
+
+    .tcard-stars {
+      color: var(--amber);
+      font-size: 16px;
+      margin-bottom: 16px;
+      letter-spacing: 2px
+    }
+
+    .tcard-quote {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      font-size: 40px;
+      color: var(--amber);
+      opacity: .15;
+      font-family: Georgia, serif;
+      line-height: 1
+    }
+
+    .tcard p {
+      font-size: 14.5px;
+      color: var(--g700);
+      line-height: 1.75;
+      font-style: italic;
+      margin-bottom: 22px
+    }
+
+    .tcard-author {
+      display: flex;
+      align-items: center;
+      gap: 12px
+    }
+
+    .tauthor-av {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--navy), var(--sky));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+      flex-shrink: 0
+    }
+
+    .tauthor-name {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--navy)
+    }
+
+    .tauthor-loc {
+      font-size: 12px;
+      color: var(--g500)
+    }
+
+    .tcard-service {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 4px 11px;
+      background: var(--amber-lt);
+      color: #92400e;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: 999px
+    }
+
+    /* ── COVERAGE ── */
+    .coverage-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+      margin-top: 48px
+    }
+
+    .coverage-map {
+      background: var(--off);
+      border-radius: 20px;
+      padding: 36px;
+      border: 1px solid var(--g100)
+    }
+
+    .map-placeholder {
+      width: 100%;
+      height: 280px;
+      background: linear-gradient(135deg, var(--g100), var(--off));
+      border-radius: 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: var(--g500);
+      font-size: 14px
+    }
+
+    .map-ph-ico {
+      font-size: 48px;
+      opacity: .4
+    }
+
+    .city-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 24px
+    }
+
+    .city-tag {
+      padding: 8px 14px;
+      background: var(--white);
+      border: 1px solid var(--g100);
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--navy);
+      font-weight: 600;
+      text-align: center;
+      transition: var(--tr);
+      cursor: pointer
+    }
+
+    .city-tag:hover {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--navy);
+      transform: scale(1.02)
+    }
+
+    .city-tag.active {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--navy)
+    }
+
+    .coverage-info h3 {
+      font-family: 'Sora', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 12px
+    }
+
+    .coverage-info p {
+      color: var(--g500);
+      font-size: 15px;
+      line-height: 1.75;
+      margin-bottom: 24px
+    }
+
+    .coverage-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px
+    }
+
+    .cov-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 18px;
+      background: var(--off);
+      border-radius: 12px;
+      transition: var(--tr)
+    }
+
+    .cov-item:hover {
+      background: #fff;
+      box-shadow: var(--sh)
+    }
+
+    .cov-ico {
+      width: 40px;
+      height: 40px;
+      background: var(--navy);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0
+    }
+
+    .cov-body strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--navy)
+    }
+
+    .cov-body span {
+      font-size: 12.5px;
+      color: var(--g500)
+    }
+
+    /* ── CTA BAND ── */
+    .cta-band {
+      background: linear-gradient(135deg, var(--orange) 0%, var(--amber) 100%);
+      padding: 72px 32px;
+      text-align: center;
+      position: relative;
+      overflow: hidden
+    }
+
+    .cta-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 100% at 50% 50%, rgba(255, 255, 255, .12), transparent);
+      pointer-events: none
+    }
+
+    .cta-band h2 {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(26px, 3vw, 42px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 14px;
+      position: relative;
+      z-index: 1
+    }
+
+    .cta-band p {
+      color: rgba(255, 255, 255, .8);
+      font-size: 17px;
+      margin-bottom: 36px;
+      position: relative;
+      z-index: 1
+    }
+
+    .cta-btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1
+    }
+
+    .cta-btn-a {
+      padding: 15px 36px;
+      background: #fff;
+      color: var(--orange);
+      font-weight: 800;
+      font-size: 15px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: var(--tr);
+      box-shadow: 0 6px 24px rgba(0, 0, 0, .15);
+      font-family: 'Sora', sans-serif
+    }
+
+    .cta-btn-a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(0, 0, 0, .2)
+    }
+
+    .cta-btn-b {
+      padding: 13px 30px;
+      background: transparent;
+      border: 2px solid rgba(255, 255, 255, .6);
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: var(--tr)
+    }
+
+    .cta-btn-b:hover {
+      background: rgba(255, 255, 255, .15);
+      border-color: #fff
+    }
+
+    /* ── FAQ ── */
+    .faq-grid {
+      max-width: 820px;
+      margin: 56px auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px
+    }
+
+    .faq-item {
+      background: var(--off);
+      border-radius: 14px;
+      border: 1px solid var(--g100);
+      overflow: hidden;
+      transition: var(--tr)
+    }
+
+    .faq-item.open {
+      background: #fff;
+      box-shadow: var(--sh)
+    }
+
+    .faq-q {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 24px;
+      cursor: pointer;
+      gap: 16px;
+      user-select: none
+    }
+
+    .faq-q span {
+      font-weight: 600;
+      font-size: 15px;
+      color: var(--navy)
+    }
+
+    .faq-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--g100);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: var(--g500);
+      transition: var(--tr);
+      flex-shrink: 0
+    }
+
+    .faq-item.open .faq-icon {
+      background: var(--navy);
+      color: #fff;
+      transform: rotate(45deg)
+    }
+
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .4s ease, padding .3s ease
+    }
+
+    .faq-item.open .faq-a {
+      max-height: 300px
+    }
+
+    .faq-a p {
+      padding: 0 24px 20px;
+      color: var(--g500);
+      font-size: 14.5px;
+      line-height: 1.75
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy-dark);
+      padding: 72px 32px 0
+    }
+
+    .footer-grid {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      padding-bottom: 56px;
+      border-bottom: 1px solid rgba(255, 255, 255, .08)
+    }
+
+    .footer-brand .logo {
+      margin-bottom: 18px;
+      display: inline-flex
+    }
+
+    .footer-brand p {
+      color: rgba(255, 255, 255, .45);
+      font-size: 14px;
+      line-height: 1.75;
+      margin-bottom: 24px
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 10px
+    }
+
+    .fsoc {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, .08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      text-decoration: none;
+      transition: var(--tr);
+      color: rgba(255, 255, 255, .6)
+    }
+
+    .fsoc:hover {
+      background: var(--orange);
+      color: #fff
+    }
+
+    .footer-col h4 {
+      font-family: 'Sora', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 18px;
+      letter-spacing: .3px
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 9px
+    }
+
+    .footer-col ul a {
+      color: rgba(255, 255, 255, .45);
+      text-decoration: none;
+      font-size: 14px;
+      transition: var(--tr)
+    }
+
+    .footer-col ul a:hover {
+      color: var(--amber);
+      padding-left: 4px
+    }
+
+    .fcontact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px
+    }
+
+    .fcontact-ico {
+      font-size: 15px;
+      flex-shrink: 0;
+      margin-top: 2px
+    }
+
+    .fcontact-item p {
+      font-size: 13.5px;
+      color: rgba(255, 255, 255, .45);
+      line-height: 1.6
+    }
+
+    .fcontact-item strong {
+      color: rgba(255, 255, 255, .8);
+      font-size: 14px
+    }
+
+    .footer-bottom {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 24px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px
+    }
+
+    .footer-bottom p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, .3)
+    }
+
+    .footer-certs {
+      display: flex;
+      gap: 10px;
+      align-items: center
+    }
+
+    .fcert {
+      padding: 4px 10px;
+      border: 1px solid rgba(255, 255, 255, .15);
+      border-radius: 6px;
+      font-size: 11px;
+      color: rgba(255, 255, 255, .4);
+      font-weight: 600
+    }
+
+    /* ── FLOATING ACTIONS ── */
+    .float-actions {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 500;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-end
+    }
+
+    .float-phone {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--navy);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 6px 24px rgba(13, 30, 79, .4);
+      transition: var(--tr);
+      animation: float-pulse 3s ease-in-out infinite
+    }
+
+    .float-phone:hover {
+      background: var(--navy-lite);
+      transform: scale(1.04)
+    }
+
+    @keyframes float-pulse {
+
+      0%,
+      100% {
+        box-shadow: 0 6px 24px rgba(13, 30, 79, .4)
+      }
+
+      50% {
+        box-shadow: 0 10px 36px rgba(13, 30, 79, .6)
+      }
+    }
+
+    .float-zalo {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0068FF, #00AAFF);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 6px 20px rgba(0, 104, 255, .4);
+      text-decoration: none;
+      transition: var(--tr);
+      color: #fff;
+      font-weight: 800;
+      font-size: 16px
+    }
+
+    .float-zalo:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 28px rgba(0, 104, 255, .5)
+    }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:1100px) {
+      .hero-grid {
+        grid-template-columns: 1fr 380px;
+        gap: 40px
+      }
+
+      .svc-grid {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .stat+.stat::before {
+        display: none
+      }
+    }
+
+    @media(max-width:800px) {
+      .nav-in {
+        padding: 0 16px
+      }
+
+      .nav-links-wrap,
+      .nav-phone {
+        display: none
+      }
+
+      .hero {
+        padding: 60px 20px 80px
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px
+      }
+
+      .why-grid,
+      .coverage-grid {
+        grid-template-columns: 1fr
+      }
+
+      .process-steps {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .process-steps::before {
+        display: none
+      }
+
+      .testi-grid {
+        grid-template-columns: 1fr
+      }
+
+      section {
+        padding: 64px 20px
+      }
+
+      .strip-in {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<!-- TOPBAR -->
-<div class="topbar">
-  🎉 Ưu đãi tháng này: <span>Giảm 10% phí dịch vụ</span> cho khách hàng đặt trước · Hotline: <a href="tel:19009999">1900 9999</a>
-</div>
+  <!-- TOPBAR -->
+  <!-- <div class="topbar">
+  🎉 Ưu đãi tháng này: <span>Giảm 10% phí dịch vụ</span> cho khách hàng đặt trước · Hotline: <a href="tel:0326533883">032 653 3883</a>
+</div> -->
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="nav-in">
-    <a href="#" class="logo">
-      <div class="logo-ico">
-        <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V21a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><path d="M9 22V12h6v10" fill="rgba(255,255,255,.4)"/></svg>
-      </div>
-      <div class="logo-txt">
-        <span class="name">Fullhouse Moving</span>
-        <span class="sub">Chuyển nhà trọn gói</span>
-      </div>
-    </a>
-    <div class="nav-links-wrap">
-      <nav>
-        <ul>
-          <li><a href="#home">Trang chủ</a></li>
-          <li><a href="#dich-vu">Dịch vụ</a></li>
-          <li><a href="#bang-gia">Bảng giá</a></li>
-          <li><a href="#quy-trinh">Quy trình</a></li>
-          <li><a href="#khu-vuc">Khu vực</a></li>
-          <li><a href="#faq">FAQ</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="nav-call">
-      <a href="tel:19009999" class="nav-phone">
-        <span class="ph-dot"></span>
-        1900 9999
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-in">
+      <a href="#" class="logo">
+        <div class="logo-ico">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 9.5L12 3l9 6.5V21a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" />
+            <path d="M9 22V12h6v10" fill="rgba(255,255,255,.4)" />
+          </svg>
+        </div>
+        <div class="logo-txt">
+          <span class="name">Fullhouse Moving</span>
+          <span class="sub">Chuyển nhà trọn gói</span>
+        </div>
       </a>
-      <a href="#contact" class="btn-quote">Báo giá ngay</a>
+      <div class="nav-links-wrap">
+        <nav>
+          <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#dich-vu">Dịch vụ</a></li>
+            <li><a href="#bang-gia">Bảng giá</a></li>
+            <li><a href="#quy-trinh">Quy trình</a></li>
+            <li><a href="#khu-vuc">Khu vực</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-call">
+        <a href="tel:0326533883" class="nav-phone">
+          <span class="ph-dot"></span>
+          032 653 3883
+        </a>
+           <a href="https://zalo.me/0326533883" target="_blank">
+            <button class="fbtn">🚀 Báo giá ngay</button>
+          </a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- HERO -->
-<section class="hero" id="home">
-  <div class="hero-dots"></div>
-  <div class="hero-grid">
-    <div class="hero-left">
-      <div class="hero-badge">Đã phục vụ hơn 15.000+ khách hàng</div>
-      <h1>
-        Chuyển nhà trọn gói
-        <em class="accent">An toàn · Nhanh chóng</em>
-        Giá cực tốt 2025
-      </h1>
-      <p class="hero-desc">
-        Fullhouse Moving cung cấp dịch vụ chuyển nhà, chuyển văn phòng trọn gói toàn quốc. 
-        Đội ngũ chuyên nghiệp, xe tải đa dạng từ 0.5 – 20 tấn, cam kết giá minh bạch – <strong style="color:rgba(255,255,255,.9)">không phát sinh chi phí.</strong>
-      </p>
-      <div class="hero-btns">
-        <a href="tel:19009999" class="hbtn-a">📞 Gọi ngay miễn phí</a>
-        <a href="#quy-trinh" class="hbtn-b">▶ Xem quy trình</a>
-      </div>
-      <div class="hero-stats">
-        <div class="hstat"><span class="hstat-n">15K+</span><div class="hstat-l">Khách hàng hài lòng</div></div>
-        <div class="hstat"><span class="hstat-n">200+</span><div class="hstat-l">Xe tải các loại</div></div>
-        <div class="hstat"><span class="hstat-n">15+</span><div class="hstat-l">Năm kinh nghiệm</div></div>
-      </div>
-    </div>
-    <div class="hero-right">
-      <div class="hero-card" id="contact">
-        <div class="hcard-head">
-          <div class="hcard-ico">📋</div>
-          <div>
-            <h3>Nhận báo giá miễn phí</h3>
-            <p>Phản hồi trong vòng 30 phút</p>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-dots"></div>
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="hero-badge">Đã phục vụ hơn 15.000+ khách hàng</div>
+        <h1>
+          Chuyển nhà trọn gói
+          <em class="accent">An toàn · Nhanh chóng</em>
+          Giá cực tốt 2026
+        </h1>
+        <p class="hero-desc">
+          Fullhouse Moving cung cấp dịch vụ chuyển nhà, chuyển văn phòng trọn gói toàn quốc.
+          Đội ngũ chuyên nghiệp, xe tải đa dạng từ 0.5 – 20 tấn, cam kết giá minh bạch – <strong
+            style="color:rgba(255,255,255,.9)">không phát sinh chi phí.</strong>
+        </p>
+        <div class="hero-btns">
+          <a href="tel:0326533883" class="hbtn-a">📞 Gọi ngay miễn phí</a>
+          <a href="#quy-trinh" class="hbtn-b">▶ Xem quy trình</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat"><span class="hstat-n">15K+</span>
+            <div class="hstat-l">Khách hàng hài lòng</div>
+          </div>
+          <div class="hstat"><span class="hstat-n">200+</span>
+            <div class="hstat-l">Xe tải các loại</div>
+          </div>
+          <div class="hstat"><span class="hstat-n">15+</span>
+            <div class="hstat-l">Năm kinh nghiệm</div>
           </div>
         </div>
-        <div class="fgroup"><label>Họ và tên</label><input type="text" placeholder="Nguyễn Văn A"></div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-card" id="contact">
+          <div class="hcard-head">
+            <div class="hcard-ico">📋</div>
+            <div>
+              <h3>Nhận báo giá miễn phí</h3>
+              <p>Phản hồi trong vòng 30 phút</p>
+            </div>
+          </div>
+          <!-- <div class="fgroup"><label>Họ và tên</label><input type="text" placeholder="Nguyễn Văn A"></div>
         <div class="fgroup"><label>Số điện thoại</label><input type="tel" placeholder="0912 345 678"></div>
         <div class="frow2">
           <div class="fgroup"><label>Địa điểm đi</label><input type="text" placeholder="Hà Nội"></div>
@@ -392,436 +1856,570 @@ footer{background:var(--navy-dark);padding:72px 32px 0}
             <option>Trong tháng</option>
             <option>Chưa xác định</option>
           </select>
-        </div>
-        <button class="fbtn" onclick="alert('Cảm ơn bạn! Chúng tôi sẽ liên hệ sớm nhất.')">🚀 Nhận báo giá ngay</button>
-        <p class="fguarantee">Thông tin của bạn được bảo mật tuyệt đối</p>
-      </div>
-    </div>
-  </div>
-</section>
+        </div> -->
+          <div class="zalo-float">
 
-<!-- TRUST STRIP -->
-<div class="strip">
-  <div class="strip-in">
-    <div class="strip-item"><span class="strip-ico">🛡️</span><div><strong>Cam kết bồi thường 100%</strong><span>Nếu xảy ra hư hỏng đồ đạc</span></div></div>
-    <div class="strip-item"><span class="strip-ico">💰</span><div><strong>Giá minh bạch – cố định</strong><span>Không phát sinh chi phí ẩn</span></div></div>
-    <div class="strip-item"><span class="strip-ico">⏰</span><div><strong>Phục vụ 24/7</strong><span>Kể cả ngày lễ, cuối tuần</span></div></div>
-    <div class="strip-item"><span class="strip-ico">📦</span><div><strong>Đóng gói chuyên nghiệp</strong><span>Vật liệu bảo vệ cao cấp</span></div></div>
-  </div>
-</div>
-
-<!-- SERVICES -->
-<section class="services-bg" id="dich-vu">
-  <div class="sec-in">
-    <div class="ctr">
-      <div class="stag">✦ Dịch vụ của chúng tôi</div>
-      <h2 class="sh1">Giải pháp vận chuyển <span>toàn diện</span></h2>
-      <p class="ssub">Từ chuyển nhà, văn phòng đến kho xưởng – Fullhouse Moving đáp ứng mọi nhu cầu của bạn.</p>
-    </div>
-    <div class="svc-grid">
-      <div class="svc-card">
-        <div class="svc-ico">🏠</div>
-        <h3>Chuyển nhà trọn gói</h3>
-        <p>Dịch vụ từ A–Z: tháo dỡ, đóng gói, vận chuyển, lắp đặt tại nhà mới. Nhân viên chuyên nghiệp, cẩn thận từng chi tiết.</p>
-        <span class="svc-pill">Phổ biến nhất</span>
-        <div class="svc-arrow">→</div>
-      </div>
-      <div class="svc-card">
-        <div class="svc-ico">🏢</div>
-        <h3>Chuyển văn phòng</h3>
-        <p>Chuyển văn phòng ngoài giờ hành chính, đảm bảo không gián đoạn hoạt động kinh doanh. Lắp đặt thiết bị IT cẩn thận.</p>
-        <span class="svc-pill">Chuyên nghiệp</span>
-        <div class="svc-arrow">→</div>
-      </div>
-      <div class="svc-card">
-        <div class="svc-ico">🚛</div>
-        <h3>Taxi tải theo chuyến</h3>
-        <p>Thuê xe tải từ 500kg đến 20 tấn theo chuyến. Linh hoạt, nhanh chóng, phù hợp mọi nhu cầu vận chuyển hàng hóa.</p>
-        <span class="svc-pill">Tiết kiệm</span>
-        <div class="svc-arrow">→</div>
-      </div>
-      <div class="svc-card">
-        <div class="svc-ico">🗺️</div>
-        <h3>Chuyển nhà liên tỉnh</h3>
-        <p>Vận chuyển an toàn trên toàn quốc. GPS tracking thời gian thực, bảo hiểm hàng hóa, đảm bảo đúng lịch trình.</p>
-        <div class="svc-arrow">→</div>
-      </div>
-      <div class="svc-card">
-        <div class="svc-ico">🎓</div>
-        <h3>Chuyển đồ sinh viên</h3>
-        <p>Dịch vụ chuyên biệt cho sinh viên với mức giá ưu đãi. Linh hoạt, tiết kiệm, phù hợp với đồ đạc nhỏ gọn.</p>
-        <span class="svc-pill">Giá SV</span>
-        <div class="svc-arrow">→</div>
-      </div>
-      <div class="svc-card">
-        <div class="svc-ico">🏭</div>
-        <h3>Chuyển kho xưởng</h3>
-        <p>Giải pháp vận chuyển quy mô lớn cho kho hàng, nhà xưởng công nghiệp với xe nâng, xe cẩu chuyên dụng.</p>
-        <div class="svc-arrow">→</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- STATS -->
-<div class="stats-sec">
-  <div class="stats-grid">
-    <div class="stat"><span class="stat-n">15K<span class="stat-u">+</span></span><div class="stat-l">Khách hàng đã phục vụ</div><div class="stat-desc">trên toàn quốc</div></div>
-    <div class="stat"><span class="stat-n">200<span class="stat-u">+</span></span><div class="stat-l">Xe tải các loại</div><div class="stat-desc">từ 500kg đến 20 tấn</div></div>
-    <div class="stat"><span class="stat-n">15<span class="stat-u">năm</span></span><div class="stat-l">Kinh nghiệm hoạt động</div><div class="stat-desc">từ năm 2010</div></div>
-    <div class="stat"><span class="stat-n">98<span class="stat-u">%</span></span><div class="stat-l">Khách hàng hài lòng</div><div class="stat-desc">theo đánh giá thực tế</div></div>
-  </div>
-</div>
-
-<!-- WHY US -->
-<section id="why">
-  <div class="sec-in">
-    <div class="why-grid">
-      <div class="why-visual">
-        <div class="why-img-placeholder">
-          <span style="font-size:72px;position:relative;z-index:1">🚚</span>
-          <p style="color:rgba(255,255,255,.4);position:relative;z-index:1;font-size:14px;margin-top:8px">Fullhouse Moving – Chuyên nghiệp</p>
-        </div>
-        <div class="why-badge-float">
-          <div class="wbf-n">⭐ 4.9</div>
-          <div class="wbf-l">2,400+ đánh giá</div>
-        </div>
-      </div>
-      <div class="why-info">
-        <div class="stag stag-blue">✦ Vì sao chọn chúng tôi</div>
-        <h2 class="sh1">Cam kết mang đến <span>trải nghiệm tốt nhất</span></h2>
-        <p class="ssub" style="margin-bottom:0">Chúng tôi hiểu rằng mỗi lần chuyển nhà là một sự kiện quan trọng trong cuộc sống của bạn.</p>
-        <div class="why-points">
-          <div class="why-point">
-            <div class="wp-ico">🔬</div>
-            <div class="wp-body"><h4>Quy trình khoa học, bài bản</h4><p>Nhân viên được đào tạo bài bản, quy trình chuẩn hóa từ tháo dỡ, đóng gói đến vận chuyển và lắp đặt.</p></div>
           </div>
-          <div class="why-point">
-            <div class="wp-ico">🛡️</div>
-            <div class="wp-body"><h4>Bồi thường 100% thiệt hại</h4><p>Cam kết bảo hiểm toàn bộ đồ đạc trong suốt quá trình vận chuyển. Có hỏng là đền ngay.</p></div>
-          </div>
-          <div class="why-point">
-            <div class="wp-ico">💎</div>
-            <div class="wp-body"><h4>Không phát sinh chi phí</h4><p>Giá cam kết trong hợp đồng là giá cuối cùng. Minh bạch, rõ ràng – không có phí ẩn nào.</p></div>
-          </div>
-          <div class="why-point">
-            <div class="wp-ico">⚡</div>
-            <div class="wp-body"><h4>Tiết kiệm 20–30% chi phí</h4><p>Hệ thống xe tải hiện đại, quy trình tối ưu giúp bạn tiết kiệm đáng kể so với tự vận chuyển.</p></div>
-          </div>
+          <a href="https://zalo.me/0326533883" target="_blank">
+            <button class="fbtn">🚀 Nhận báo giá ngay</button>
+          </a>
+          <p class="fguarantee">Thông tin của bạn được bảo mật tuyệt đối</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="strip">
+    <div class="strip-in">
+      <div class="strip-item"><span class="strip-ico">🛡️</span>
+        <div><strong>Cam kết bồi thường 100%</strong><span>Nếu xảy ra hư hỏng đồ đạc</span></div>
+      </div>
+      <div class="strip-item"><span class="strip-ico">💰</span>
+        <div><strong>Giá minh bạch – cố định</strong><span>Không phát sinh chi phí ẩn</span></div>
+      </div>
+      <div class="strip-item"><span class="strip-ico">⏰</span>
+        <div><strong>Phục vụ 24/7</strong><span>Kể cả ngày lễ, cuối tuần</span></div>
+      </div>
+      <div class="strip-item"><span class="strip-ico">📦</span>
+        <div><strong>Đóng gói chuyên nghiệp</strong><span>Vật liệu bảo vệ cao cấp</span></div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- PROCESS -->
-<section class="process-bg" id="quy-trinh">
-  <div class="sec-in">
-    <div class="ctr">
-      <div class="stag">✦ Quy trình làm việc</div>
-      <h2 class="sh1">5 bước đơn giản – <span>Nhà mới chờ bạn</span></h2>
-      <p class="ssub">Chúng tôi xử lý mọi thứ để bạn chỉ cần thư giãn và tận hưởng ngôi nhà mới.</p>
+  <!-- SERVICES -->
+  <section class="services-bg" id="dich-vu">
+    <div class="sec-in">
+      <div class="ctr">
+        <div class="stag">✦ Dịch vụ của chúng tôi</div>
+        <h2 class="sh1">Giải pháp vận chuyển <span>toàn diện</span></h2>
+        <p class="ssub">Từ chuyển nhà, văn phòng đến kho xưởng – Fullhouse Moving đáp ứng mọi nhu cầu của bạn.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card">
+          <div class="svc-ico">🏠</div>
+          <h3>Chuyển nhà trọn gói</h3>
+          <p>Dịch vụ từ A–Z: tháo dỡ, đóng gói, vận chuyển, lắp đặt tại nhà mới. Nhân viên chuyên nghiệp, cẩn thận từng
+            chi tiết.</p>
+          <span class="svc-pill">Phổ biến nhất</span>
+          <div class="svc-arrow">→</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-ico">🏢</div>
+          <h3>Chuyển văn phòng</h3>
+          <p>Chuyển văn phòng ngoài giờ hành chính, đảm bảo không gián đoạn hoạt động kinh doanh. Lắp đặt thiết bị IT
+            cẩn thận.</p>
+          <span class="svc-pill">Chuyên nghiệp</span>
+          <div class="svc-arrow">→</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-ico">🚛</div>
+          <h3>Taxi tải theo chuyến</h3>
+          <p>Thuê xe tải từ 500kg đến 20 tấn theo chuyến. Linh hoạt, nhanh chóng, phù hợp mọi nhu cầu vận chuyển hàng
+            hóa.</p>
+          <span class="svc-pill">Tiết kiệm</span>
+          <div class="svc-arrow">→</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-ico">🗺️</div>
+          <h3>Chuyển nhà liên tỉnh</h3>
+          <p>Vận chuyển an toàn trên toàn quốc. GPS tracking thời gian thực, bảo hiểm hàng hóa, đảm bảo đúng lịch trình.
+          </p>
+          <div class="svc-arrow">→</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-ico">🎓</div>
+          <h3>Chuyển đồ sinh viên</h3>
+          <p>Dịch vụ chuyên biệt cho sinh viên với mức giá ưu đãi. Linh hoạt, tiết kiệm, phù hợp với đồ đạc nhỏ gọn.</p>
+          <span class="svc-pill">Giá SV</span>
+          <div class="svc-arrow">→</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-ico">🏭</div>
+          <h3>Chuyển kho xưởng</h3>
+          <p>Giải pháp vận chuyển quy mô lớn cho kho hàng, nhà xưởng công nghiệp với xe nâng, xe cẩu chuyên dụng.</p>
+          <div class="svc-arrow">→</div>
+        </div>
+      </div>
     </div>
-    <div class="process-steps">
-      <div class="pstep active">
-        <div class="pstep-num">1</div>
-        <h4>Tiếp nhận yêu cầu</h4>
-        <p>Bạn liên hệ qua hotline, Zalo hoặc điền form. Chúng tôi phản hồi trong 30 phút.</p>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-sec">
+    <div class="stats-grid">
+      <div class="stat"><span class="stat-n">15K<span class="stat-u">+</span></span>
+        <div class="stat-l">Khách hàng đã phục vụ</div>
+        <div class="stat-desc">trên toàn quốc</div>
       </div>
-      <div class="pstep">
-        <div class="pstep-num">2</div>
-        <h4>Khảo sát & báo giá</h4>
-        <p>Nhân viên đến tận nơi khảo sát, đưa ra báo giá chi tiết – cố định, không tăng thêm.</p>
+      <div class="stat"><span class="stat-n">200<span class="stat-u">+</span></span>
+        <div class="stat-l">Xe tải các loại</div>
+        <div class="stat-desc">từ 500kg đến 20 tấn</div>
       </div>
-      <div class="pstep">
-        <div class="pstep-num">3</div>
-        <h4>Ký hợp đồng</h4>
-        <p>Ký kết hợp đồng minh bạch, nêu rõ tất cả dịch vụ và mức giá đã cam kết.</p>
-      </div>
-      <div class="pstep">
-        <div class="pstep-num">4</div>
-        <h4>Tiến hành vận chuyển</h4>
-        <p>Đội ngũ tháo dỡ, đóng gói, vận chuyển và lắp đặt tại địa điểm mới an toàn.</p>
-      </div>
-      <div class="pstep">
-        <div class="pstep-num">5</div>
-        <h4>Nghiệm thu & thanh toán</h4>
-        <p>Bạn kiểm tra toàn bộ đồ đạc, hài lòng rồi mới thanh toán. Đơn giản vậy thôi!</p>
+      <!-- <div class="stat"><span class="stat-n">15<span class="stat-u">năm</span></span><div class="stat-l">Kinh nghiệm hoạt động</div><div class="stat-desc">từ năm 2010</div></div> -->
+      <div class="stat"><span class="stat-n">98<span class="stat-u">%</span></span>
+        <div class="stat-l">Khách hàng hài lòng</div>
+        <div class="stat-desc">theo đánh giá thực tế</div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- PRICE -->
-<section id="bang-gia">
-  <div class="sec-in">
-    <div class="stag">✦ Bảng giá tham khảo 2025</div>
-    <h2 class="sh1">Giá cước <span>công khai & minh bạch</span></h2>
-    <p class="ssub">Bảng giá tham khảo. Giá thực tế sẽ được xác định sau khi khảo sát – luôn có lợi cho khách hàng.</p>
-    <div class="price-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Loại xe</th>
-            <th>Giá mở cửa (4km đầu)</th>
-            <th>Từ km thứ 5</th>
-            <th>Thời gian chờ</th>
-            <th>Phí bốc xếp</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="td-highlight">🚐 Xe 500kg</td><td class="td-price">200,000 ₫</td><td>19,000 ₫/km</td><td>80,000 ₫/giờ</td><td>350,000 ₫/người</td></tr>
-          <tr><td class="td-highlight">🚚 Xe 1 tấn</td><td class="td-price">250,000 ₫</td><td>22,000 ₫/km</td><td>80,000 ₫/giờ</td><td>350,000 ₫/người</td></tr>
-          <tr><td class="td-highlight">🚚 Xe 1.5 tấn</td><td class="td-price">280,000 ₫</td><td>25,000 ₫/km</td><td>80,000 ₫/giờ</td><td>350,000 ₫/người</td></tr>
-          <tr><td class="td-highlight">🚛 Xe 1.9 tấn</td><td class="td-price">350,000 ₫</td><td>26,000 ₫/km</td><td>100,000 ₫/giờ</td><td>350,000 ₫/người</td></tr>
-          <tr><td class="td-highlight">🚛 Xe 2.4 tấn</td><td class="td-price">380,000 ₫</td><td>38,000 ₫/km</td><td>100,000 ₫/giờ</td><td>350,000 ₫/người</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="price-note">
-      ℹ️ <span>Giá trên chưa bao gồm VAT. Khuyến mãi <strong>giảm 10%</strong> cho khách đặt lịch trước 3 ngày. Liên hệ để được tư vấn và báo giá chính xác nhất.</span>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testi-bg">
-  <div class="sec-in">
-    <div class="ctr">
-      <div class="stag">✦ Khách hàng nói gì về chúng tôi</div>
-      <h2 class="sh1">Hơn <span>15,000 khách hàng</span> đã tin tưởng</h2>
-      <p class="ssub">Đánh giá thực tế từ những khách hàng đã sử dụng dịch vụ của Fullhouse Moving.</p>
-    </div>
-    <div class="testi-grid">
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <div class="tcard-quote">"</div>
-        <p>Dịch vụ cực kỳ chuyên nghiệp! Đội nhân viên làm việc nhanh, cẩn thận và đúng giờ. Đồ đạc của mình được bọc gói kỹ lưỡng, không có gì bị hỏng hay trầy xước. Sẽ giới thiệu cho bạn bè ngay!</p>
-        <div class="tcard-author">
-          <div class="tauthor-av">HT</div>
-          <div><div class="tauthor-name">Hoàng Thị Mai</div><div class="tauthor-loc">📍 Cầu Giấy, Hà Nội</div></div>
-        </div>
-        <span class="tcard-service">Chuyển nhà trọn gói</span>
-      </div>
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <div class="tcard-quote">"</div>
-        <p>Mình đã chuyển văn phòng lúc 10h tối để không ảnh hưởng công việc ngày hôm sau. Fullhouse Moving làm xong trước 2h sáng, lắp đặt thiết bị IT cẩn thận. Sáng hôm sau team đã làm việc bình thường!</p>
-        <div class="tcard-author">
-          <div class="tauthor-av">NV</div>
-          <div><div class="tauthor-name">Nguyễn Văn Đức</div><div class="tauthor-loc">📍 Quận 1, TP.HCM</div></div>
-        </div>
-        <span class="tcard-service">Chuyển văn phòng</span>
-      </div>
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <div class="tcard-quote">"</div>
-        <p>Chuyển từ Hà Nội vào Sài Gòn, mình lo lắm vì đồ nhiều. Nhưng đội Fullhouse đóng gói rất chuyên nghiệp, theo dõi được xe qua điện thoại. Đồ đến nơi nguyên vẹn 100%. Cảm ơn rất nhiều!</p>
-        <div class="tcard-author">
-          <div class="tauthor-av">LA</div>
-          <div><div class="tauthor-name">Lê Thị Ánh</div><div class="tauthor-loc">📍 Bình Thạnh, TP.HCM</div></div>
-        </div>
-        <span class="tcard-service">Chuyển liên tỉnh</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- COVERAGE -->
-<section id="khu-vuc">
-  <div class="sec-in">
-    <div class="stag stag-sky">✦ Khu vực phục vụ</div>
-    <h2 class="sh1">Hoạt động trên <span>toàn quốc</span></h2>
-    <div class="coverage-grid">
-      <div class="coverage-map">
-        <div class="map-placeholder">
-          <div class="map-ph-ico">🗺️</div>
-          <span>Bản đồ khu vực phục vụ</span>
-        </div>
-        <div class="city-grid">
-          <div class="city-tag active">Hà Nội</div>
-          <div class="city-tag">TP.HCM</div>
-          <div class="city-tag">Hải Phòng</div>
-          <div class="city-tag">Bắc Ninh</div>
-          <div class="city-tag">Bắc Giang</div>
-          <div class="city-tag">Hà Nam</div>
-          <div class="city-tag">Vĩnh Phúc</div>
-          <div class="city-tag">Thái Nguyên</div>
-          <div class="city-tag">Phú Thọ</div>
-        </div>
-      </div>
-      <div class="coverage-info">
-        <h3>Phủ sóng 63 tỉnh thành</h3>
-        <p>Với đội xe hơn 200 chiếc và mạng lưới đối tác trên cả nước, Fullhouse Moving đảm bảo giao hàng đúng hẹn đến mọi tỉnh thành Việt Nam.</p>
-        <div class="coverage-list">
-          <div class="cov-item">
-            <div class="cov-ico">🏙️</div>
-            <div class="cov-body"><strong>Nội thành Hà Nội & TP.HCM</strong><span>Phục vụ 24/7, khởi hành trong vòng 2 giờ sau đặt lịch</span></div>
+  <!-- WHY US -->
+  <section id="why">
+    <div class="sec-in">
+      <div class="why-grid">
+        <div class="why-visual">
+          <div class="why-img-placeholder">
+            <span style="font-size:72px;position:relative;z-index:1">🚚</span>
+            <p style="color:rgba(255,255,255,.4);position:relative;z-index:1;font-size:14px;margin-top:8px">Fullhouse
+              Moving – Chuyên nghiệp</p>
           </div>
-          <div class="cov-item">
-            <div class="cov-ico">🛣️</div>
-            <div class="cov-body"><strong>Liên tỉnh miền Bắc – Trung – Nam</strong><span>Lộ trình GPS, cập nhật vị trí theo thời gian thực</span></div>
+          <div class="why-badge-float">
+            <div class="wbf-n">⭐ 4.9</div>
+            <div class="wbf-l">2,400+ đánh giá</div>
           </div>
-          <div class="cov-item">
-            <div class="cov-ico">🌏</div>
-            <div class="cov-body"><strong>Toàn quốc 63 tỉnh thành</strong><span>Mạng lưới đối tác đảm bảo phủ sóng hoàn toàn</span></div>
-          </div>
-          <div class="cov-item">
-            <div class="cov-ico">🔔</div>
-            <div class="cov-body"><strong>Hỗ trợ khẩn cấp 24/7</strong><span>Hotline luôn sẵn sàng, kể cả ngày nghỉ và ngày lễ</span></div>
+        </div>
+        <div class="why-info">
+          <div class="stag stag-blue">✦ Vì sao chọn chúng tôi</div>
+          <h2 class="sh1">Cam kết mang đến <span>trải nghiệm tốt nhất</span></h2>
+          <p class="ssub" style="margin-bottom:0">Chúng tôi hiểu rằng mỗi lần chuyển nhà là một sự kiện quan trọng trong
+            cuộc sống của bạn.</p>
+          <div class="why-points">
+            <div class="why-point">
+              <div class="wp-ico">🔬</div>
+              <div class="wp-body">
+                <h4>Quy trình khoa học, bài bản</h4>
+                <p>Nhân viên được đào tạo bài bản, quy trình chuẩn hóa từ tháo dỡ, đóng gói đến vận chuyển và lắp đặt.
+                </p>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="wp-ico">🛡️</div>
+              <div class="wp-body">
+                <h4>Bồi thường 100% thiệt hại</h4>
+                <p>Cam kết bảo hiểm toàn bộ đồ đạc trong suốt quá trình vận chuyển. Có hỏng là đền ngay.</p>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="wp-ico">💎</div>
+              <div class="wp-body">
+                <h4>Không phát sinh chi phí</h4>
+                <p>Giá cam kết trong hợp đồng là giá cuối cùng. Minh bạch, rõ ràng – không có phí ẩn nào.</p>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="wp-ico">⚡</div>
+              <div class="wp-body">
+                <h4>Tiết kiệm 20–30% chi phí</h4>
+                <p>Hệ thống xe tải hiện đại, quy trình tối ưu giúp bạn tiết kiệm đáng kể so với tự vận chuyển.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- CTA BAND -->
-<div class="cta-band">
-  <h2>Sẵn sàng cho cuộc chuyển nhà stress-free? 🏡</h2>
-  <p>Liên hệ ngay hôm nay để nhận tư vấn miễn phí và ưu đãi 10% cho đặt lịch sớm!</p>
-  <div class="cta-btns">
-    <a href="tel:19009999" class="cta-btn-a">📞 Gọi ngay: 1900 9999</a>
-    <a href="#contact" class="cta-btn-b">📋 Điền form báo giá</a>
-  </div>
-</div>
-
-<!-- FAQ -->
-<section id="faq">
-  <div class="sec-in">
-    <div class="ctr">
-      <div class="stag">✦ Câu hỏi thường gặp</div>
-      <h2 class="sh1">Giải đáp mọi <span>thắc mắc</span> của bạn</h2>
-    </div>
-    <div class="faq-grid">
-      <div class="faq-item open">
-        <div class="faq-q" onclick="toggleFaq(this)"><span>Dịch vụ chuyển nhà trọn gói bao gồm những gì?</span><div class="faq-icon">+</div></div>
-        <div class="faq-a"><p>Dịch vụ trọn gói bao gồm toàn bộ các công đoạn: tháo dỡ đồ đạc, đóng gói bằng vật liệu chuyên dụng (xốp PE, carton, giấy bọc...), khuân vác ra xe, vận chuyển đến địa điểm mới, mang vào nhà và lắp đặt lại. Bạn không cần làm gì cả!</p></div>
+  <!-- PROCESS -->
+  <section class="process-bg" id="quy-trinh">
+    <div class="sec-in">
+      <div class="ctr">
+        <div class="stag">✦ Quy trình làm việc</div>
+        <h2 class="sh1">5 bước đơn giản – <span>Nhà mới chờ bạn</span></h2>
+        <p class="ssub">Chúng tôi xử lý mọi thứ để bạn chỉ cần thư giãn và tận hưởng ngôi nhà mới.</p>
       </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)"><span>Nếu đồ đạc bị hư hỏng thì xử lý thế nào?</span><div class="faq-icon">+</div></div>
-        <div class="faq-a"><p>Fullhouse Moving cam kết bồi thường 100% giá trị đồ đạc bị hư hỏng trong quá trình vận chuyển. Điều này được ghi rõ trong hợp đồng. Bạn hoàn toàn có thể yên tâm về tài sản của mình.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)"><span>Cần đặt lịch trước bao lâu?</span><div class="faq-icon">+</div></div>
-        <div class="faq-a"><p>Tốt nhất nên đặt trước 2–3 ngày để đảm bảo có xe và nhân viên phù hợp. Nếu cần gấp, chúng tôi có thể sắp xếp trong vòng 2–4 giờ với đội xe sẵn sàng tại Hà Nội và TP.HCM. Đặt trước 3 ngày sẽ được giảm 10%!</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)"><span>Chi phí có phát sinh so với báo giá ban đầu không?</span><div class="faq-icon">+</div></div>
-        <div class="faq-a"><p>Tuyệt đối không! Giá trong hợp đồng là giá cố định. Toàn bộ chi phí bao gồm công, xe, vật liệu đóng gói đã được tính sẵn. Bạn chỉ thanh toán đúng theo hợp đồng đã ký, không có bất kỳ phí phát sinh nào.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)"><span>Fullhouse Moving có phục vụ chuyển nhà liên tỉnh không?</span><div class="faq-icon">+</div></div>
-        <div class="faq-a"><p>Có! Chúng tôi phục vụ chuyển nhà liên tỉnh trên toàn quốc. Xe có hệ thống GPS tracking, bạn có thể theo dõi vị trí hàng hóa theo thời gian thực. Đặc biệt có bảo hiểm hàng hóa cho tuyến liên tỉnh.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)"><span>Có thể chọn ngày giờ tốt theo phong thủy không?</span><div class="faq-icon">+</div></div>
-        <div class="faq-a"><p>Hoàn toàn có thể! Đội tư vấn của chúng tôi có thể hỗ trợ tra cứu ngày tốt, giờ đẹp theo phong thủy phù hợp với tuổi của gia chủ. Dịch vụ tư vấn này hoàn toàn miễn phí khi bạn sử dụng dịch vụ của Fullhouse Moving.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <a href="#" class="logo">
-        <div class="logo-ico">
-          <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V21a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><path d="M9 22V12h6v10" fill="rgba(255,255,255,.4)"/></svg>
+      <div class="process-steps">
+        <div class="pstep active">
+          <div class="pstep-num">1</div>
+          <h4>Tiếp nhận yêu cầu</h4>
+          <p>Bạn liên hệ qua hotline, Zalo hoặc điền form. Chúng tôi phản hồi trong 30 phút.</p>
         </div>
-        <div class="logo-txt">
-          <span class="name">Fullhouse Moving</span>
-          <span class="sub">Chuyển nhà trọn gói</span>
+        <div class="pstep">
+          <div class="pstep-num">2</div>
+          <h4>Khảo sát & báo giá</h4>
+          <p>Nhân viên đến tận nơi khảo sát, đưa ra báo giá chi tiết – cố định, không tăng thêm.</p>
         </div>
-      </a>
-      <p>Công ty TNHH Dịch vụ Vận chuyển Fullhouse Moving – đơn vị hàng đầu trong lĩnh vực chuyển nhà trọn gói tại Việt Nam. Uy tín – Chuyên nghiệp – Tận tâm từ 2010.</p>
-      <div class="footer-social">
-        <a href="#" class="fsoc">f</a>
-        <a href="#" class="fsoc">in</a>
-        <a href="#" class="fsoc">yt</a>
-        <a href="#" class="fsoc">z</a>
+        <div class="pstep">
+          <div class="pstep-num">3</div>
+          <h4>Ký hợp đồng</h4>
+          <p>Ký kết hợp đồng minh bạch, nêu rõ tất cả dịch vụ và mức giá đã cam kết.</p>
+        </div>
+        <div class="pstep">
+          <div class="pstep-num">4</div>
+          <h4>Tiến hành vận chuyển</h4>
+          <p>Đội ngũ tháo dỡ, đóng gói, vận chuyển và lắp đặt tại địa điểm mới an toàn.</p>
+        </div>
+        <div class="pstep">
+          <div class="pstep-num">5</div>
+          <h4>Nghiệm thu & thanh toán</h4>
+          <p>Bạn kiểm tra toàn bộ đồ đạc, hài lòng rồi mới thanh toán. Đơn giản vậy thôi!</p>
+        </div>
       </div>
     </div>
-    <div class="footer-col">
-      <h4>Dịch vụ</h4>
-      <ul>
-        <li><a href="#">Chuyển nhà trọn gói</a></li>
-        <li><a href="#">Chuyển văn phòng</a></li>
-        <li><a href="#">Taxi tải theo chuyến</a></li>
-        <li><a href="#">Chuyển liên tỉnh</a></li>
-        <li><a href="#">Chuyển kho xưởng</a></li>
-        <li><a href="#">Chuyển đồ sinh viên</a></li>
-      </ul>
+  </section>
+
+  <!-- PRICE -->
+  <section id="bang-gia">
+    <div class="sec-in">
+      <div class="stag">✦ Bảng giá tham khảo 2026</div>
+      <h2 class="sh1">Giá cước <span>công khai & minh bạch</span></h2>
+      <p class="ssub">Bảng giá tham khảo. Giá thực tế sẽ được xác định sau khi khảo sát – luôn có lợi cho khách hàng.
+      </p>
+      <div class="price-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Loại xe</th>
+              <th>Giá mở cửa (4km đầu)</th>
+              <th>Từ km thứ 5</th>
+              <th>Thời gian chờ</th>
+              <th>Phí bốc xếp</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-highlight">🚐 Xe 500kg</td>
+              <td class="td-price">200,000 ₫</td>
+              <td>19,000 ₫/km</td>
+              <td>80,000 ₫/giờ</td>
+              <td>350,000 ₫/người</td>
+            </tr>
+            <tr>
+              <td class="td-highlight">🚚 Xe 1 tấn</td>
+              <td class="td-price">250,000 ₫</td>
+              <td>22,000 ₫/km</td>
+              <td>80,000 ₫/giờ</td>
+              <td>350,000 ₫/người</td>
+            </tr>
+            <tr>
+              <td class="td-highlight">🚚 Xe 1.5 tấn</td>
+              <td class="td-price">280,000 ₫</td>
+              <td>25,000 ₫/km</td>
+              <td>80,000 ₫/giờ</td>
+              <td>350,000 ₫/người</td>
+            </tr>
+            <tr>
+              <td class="td-highlight">🚛 Xe 1.9 tấn</td>
+              <td class="td-price">350,000 ₫</td>
+              <td>26,000 ₫/km</td>
+              <td>100,000 ₫/giờ</td>
+              <td>350,000 ₫/người</td>
+            </tr>
+            <tr>
+              <td class="td-highlight">🚛 Xe 2.4 tấn</td>
+              <td class="td-price">380,000 ₫</td>
+              <td>38,000 ₫/km</td>
+              <td>100,000 ₫/giờ</td>
+              <td>350,000 ₫/người</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="price-note">
+        ℹ️ <span>Giá trên chưa bao gồm VAT. Khuyến mãi <strong>giảm 10%</strong> cho khách đặt lịch trước 3 ngày. Liên
+          hệ để được tư vấn và báo giá chính xác nhất.</span>
+      </div>
     </div>
-    <div class="footer-col">
-      <h4>Khu vực</h4>
-      <ul>
-        <li><a href="#">Chuyển nhà Hà Nội</a></li>
-        <li><a href="#">Chuyển nhà TP.HCM</a></li>
-        <li><a href="#">Chuyển nhà Hải Phòng</a></li>
-        <li><a href="#">Chuyển nhà Bắc Ninh</a></li>
-        <li><a href="#">Chuyển nhà liên tỉnh</a></li>
-        <li><a href="#">Xem tất cả khu vực</a></li>
-      </ul>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi-bg">
+    <div class="sec-in">
+      <div class="ctr">
+        <div class="stag">✦ Khách hàng nói gì về chúng tôi</div>
+        <h2 class="sh1">Hơn <span>15,000 khách hàng</span> đã tin tưởng</h2>
+        <p class="ssub">Đánh giá thực tế từ những khách hàng đã sử dụng dịch vụ của Fullhouse Moving.</p>
+      </div>
+      <div class="testi-grid">
+        <div class="tcard">
+          <div class="tcard-stars">★★★★★</div>
+          <div class="tcard-quote">"</div>
+          <p>Dịch vụ cực kỳ chuyên nghiệp! Đội nhân viên làm việc nhanh, cẩn thận và đúng giờ. Đồ đạc của mình được bọc
+            gói kỹ lưỡng, không có gì bị hỏng hay trầy xước. Sẽ giới thiệu cho bạn bè ngay!</p>
+          <div class="tcard-author">
+            <div class="tauthor-av">HT</div>
+            <div>
+              <div class="tauthor-name">Hoàng Thị Mai</div>
+              <div class="tauthor-loc">📍 Cầu Giấy, Hà Nội</div>
+            </div>
+          </div>
+          <span class="tcard-service">Chuyển nhà trọn gói</span>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars">★★★★★</div>
+          <div class="tcard-quote">"</div>
+          <p>Mình đã chuyển văn phòng lúc 10h tối để không ảnh hưởng công việc ngày hôm sau. Fullhouse Moving làm xong
+            trước 2h sáng, lắp đặt thiết bị IT cẩn thận. Sáng hôm sau team đã làm việc bình thường!</p>
+          <div class="tcard-author">
+            <div class="tauthor-av">NV</div>
+            <div>
+              <div class="tauthor-name">Nguyễn Văn Đức</div>
+              <div class="tauthor-loc">📍 Quận 1, TP.HCM</div>
+            </div>
+          </div>
+          <span class="tcard-service">Chuyển văn phòng</span>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars">★★★★★</div>
+          <div class="tcard-quote">"</div>
+          <p>Chuyển từ Hà Nội vào Sài Gòn, mình lo lắm vì đồ nhiều. Nhưng đội Fullhouse đóng gói rất chuyên nghiệp, theo
+            dõi được xe qua điện thoại. Đồ đến nơi nguyên vẹn 100%. Cảm ơn rất nhiều!</p>
+          <div class="tcard-author">
+            <div class="tauthor-av">LA</div>
+            <div>
+              <div class="tauthor-name">Lê Thị Ánh</div>
+              <div class="tauthor-loc">📍 Bình Thạnh, TP.HCM</div>
+            </div>
+          </div>
+          <span class="tcard-service">Chuyển liên tỉnh</span>
+        </div>
+      </div>
     </div>
-    <div class="footer-col">
-      <h4>Liên hệ</h4>
-      <div class="fcontact-item"><span class="fcontact-ico">📞</span><p><strong>1900 9999</strong><br>Hotline 24/7 (miễn phí)</p></div>
-      <div class="fcontact-item"><span class="fcontact-ico">📧</span><p><strong>info@fullhousemoving.vn</strong><br>Phản hồi trong 1 giờ</p></div>
-      <div class="fcontact-item"><span class="fcontact-ico">📍</span><p>123 Đường Láng, Đống Đa<br>Hà Nội, Việt Nam</p></div>
-      <div class="fcontact-item"><span class="fcontact-ico">⏰</span><p>Làm việc 24/7<br>Kể cả ngày lễ</p></div>
+  </section>
+
+  <!-- COVERAGE -->
+  <section id="khu-vuc">
+    <div class="sec-in">
+      <div class="stag stag-sky">✦ Khu vực phục vụ</div>
+      <h2 class="sh1">Hoạt động trên <span>toàn quốc</span></h2>
+      <div class="coverage-grid">
+        <div class="coverage-map">
+          <div class="map-placeholder">
+            <div class="map-ph-ico">🗺️</div>
+            <span>Bản đồ khu vực phục vụ</span>
+          </div>
+          <div class="city-grid">
+            <div class="city-tag active">Hà Nội</div>
+            <div class="city-tag">TP.HCM</div>
+            <div class="city-tag">Hải Phòng</div>
+            <div class="city-tag">Bắc Ninh</div>
+            <div class="city-tag">Bắc Giang</div>
+            <div class="city-tag">Hà Nam</div>
+            <div class="city-tag">Vĩnh Phúc</div>
+            <div class="city-tag">Thái Nguyên</div>
+            <div class="city-tag">Phú Thọ</div>
+          </div>
+        </div>
+        <div class="coverage-info">
+          <h3>Phủ sóng 63 tỉnh thành</h3>
+          <p>Với đội xe hơn 200 chiếc và mạng lưới đối tác trên cả nước, Fullhouse Moving đảm bảo giao hàng đúng hẹn đến
+            mọi tỉnh thành Việt Nam.</p>
+          <div class="coverage-list">
+            <div class="cov-item">
+              <div class="cov-ico">🏙️</div>
+              <div class="cov-body"><strong>Nội thành Hà Nội & TP.HCM</strong><span>Phục vụ 24/7, khởi hành trong vòng 2
+                  giờ sau đặt lịch</span></div>
+            </div>
+            <div class="cov-item">
+              <div class="cov-ico">🛣️</div>
+              <div class="cov-body"><strong>Liên tỉnh miền Bắc – Trung – Nam</strong><span>Lộ trình GPS, cập nhật vị trí
+                  theo thời gian thực</span></div>
+            </div>
+            <div class="cov-item">
+              <div class="cov-ico">🌏</div>
+              <div class="cov-body"><strong>Toàn quốc 63 tỉnh thành</strong><span>Mạng lưới đối tác đảm bảo phủ sóng
+                  hoàn toàn</span></div>
+            </div>
+            <div class="cov-item">
+              <div class="cov-ico">🔔</div>
+              <div class="cov-body"><strong>Hỗ trợ khẩn cấp 24/7</strong><span>Hotline luôn sẵn sàng, kể cả ngày nghỉ và
+                  ngày lễ</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <div class="cta-band">
+    <h2>Sẵn sàng cho cuộc chuyển nhà stress-free? 🏡</h2>
+    <p>Liên hệ ngay hôm nay để nhận tư vấn miễn phí và ưu đãi 10% cho đặt lịch sớm!</p>
+    <div class="cta-btns">
+      <a href="tel:0326533883" class="cta-btn-a">📞 Gọi ngay: 032 653 3883</a>
+      <a href="#contact" class="cta-btn-b">📋 Điền form báo giá</a>
     </div>
   </div>
-  <div class="footer-bottom">
-    <p>© 2025 Fullhouse Moving. Bảo lưu mọi quyền. | MST: 0123456789</p>
-    <div class="footer-certs">
-      <span class="fcert">ISO 9001</span>
-      <span class="fcert">DMCA</span>
-      <span class="fcert">SSL Secure</span>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="sec-in">
+      <div class="ctr">
+        <div class="stag">✦ Câu hỏi thường gặp</div>
+        <h2 class="sh1">Giải đáp mọi <span>thắc mắc</span> của bạn</h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item open">
+          <div class="faq-q" onclick="toggleFaq(this)"><span>Dịch vụ chuyển nhà trọn gói bao gồm những gì?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Dịch vụ trọn gói bao gồm toàn bộ các công đoạn: tháo dỡ đồ đạc, đóng gói bằng vật liệu chuyên dụng (xốp
+              PE, carton, giấy bọc...), khuân vác ra xe, vận chuyển đến địa điểm mới, mang vào nhà và lắp đặt lại. Bạn
+              không cần làm gì cả!</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)"><span>Nếu đồ đạc bị hư hỏng thì xử lý thế nào?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Fullhouse Moving cam kết bồi thường 100% giá trị đồ đạc bị hư hỏng trong quá trình vận chuyển. Điều này
+              được ghi rõ trong hợp đồng. Bạn hoàn toàn có thể yên tâm về tài sản của mình.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)"><span>Cần đặt lịch trước bao lâu?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Tốt nhất nên đặt trước 2–3 ngày để đảm bảo có xe và nhân viên phù hợp. Nếu cần gấp, chúng tôi có thể sắp
+              xếp trong vòng 2–4 giờ với đội xe sẵn sàng tại Hà Nội và TP.HCM. Đặt trước 3 ngày sẽ được giảm 10%!</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)"><span>Chi phí có phát sinh so với báo giá ban đầu không?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Tuyệt đối không! Giá trong hợp đồng là giá cố định. Toàn bộ chi phí bao gồm công, xe, vật liệu đóng gói
+              đã được tính sẵn. Bạn chỉ thanh toán đúng theo hợp đồng đã ký, không có bất kỳ phí phát sinh nào.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)"><span>Fullhouse Moving có phục vụ chuyển nhà liên tỉnh
+              không?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Có! Chúng tôi phục vụ chuyển nhà liên tỉnh trên toàn quốc. Xe có hệ thống GPS tracking, bạn có thể theo
+              dõi vị trí hàng hóa theo thời gian thực. Đặc biệt có bảo hiểm hàng hóa cho tuyến liên tỉnh.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)"><span>Có thể chọn ngày giờ tốt theo phong thủy không?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Hoàn toàn có thể! Đội tư vấn của chúng tôi có thể hỗ trợ tra cứu ngày tốt, giờ đẹp theo phong thủy phù
+              hợp với tuổi của gia chủ. Dịch vụ tư vấn này hoàn toàn miễn phí khi bạn sử dụng dịch vụ của Fullhouse
+              Moving.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="logo-ico">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9.5L12 3l9 6.5V21a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" />
+              <path d="M9 22V12h6v10" fill="rgba(255,255,255,.4)" />
+            </svg>
+          </div>
+          <div class="logo-txt">
+            <span class="name">Fullhouse Moving</span>
+            <span class="sub">Chuyển nhà trọn gói</span>
+          </div>
+        </a>
+        <p>Công ty TNHH Dịch vụ Vận chuyển Fullhouse Moving – đơn vị hàng đầu trong lĩnh vực chuyển nhà trọn gói tại
+          Việt Nam. Uy tín – Chuyên nghiệp – Tận tâm.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/fullhouses.org" class="fsoc">F</a>
+          <a href="https://zalo.me/0326533883" class="fsoc" target="_blank">Z</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch vụ</h4>
+        <ul>
+          <li><a href="#">Chuyển nhà trọn gói</a></li>
+          <li><a href="#">Chuyển văn phòng</a></li>
+          <li><a href="#">Taxi tải theo chuyến</a></li>
+          <li><a href="#">Chuyển liên tỉnh</a></li>
+          <li><a href="#">Chuyển kho xưởng</a></li>
+          <li><a href="#">Chuyển đồ sinh viên</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Khu vực</h4>
+        <ul>
+          <li><a href="#">Chuyển nhà Hà Nội</a></li>
+          <li><a href="#">Chuyển nhà TP.HCM</a></li>
+          <li><a href="#">Chuyển nhà Hải Phòng</a></li>
+          <li><a href="#">Chuyển nhà Bắc Ninh</a></li>
+          <li><a href="#">Chuyển nhà liên tỉnh</a></li>
+          <li><a href="#">Xem tất cả khu vực</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <div class="fcontact-item"><span class="fcontact-ico">📞</span>
+          <p><strong>032 653 3883</strong><br>Hotline 24/7 (miễn phí)</p>
+        </div>
+        <div class="fcontact-item"><span class="fcontact-ico">📧</span>
+          <a href="https://www.facebook.com/fullhouses.org"><p><strong>Full House Moving</strong><br>Phản hồi trong 1 giờ</p></a>
+        </div>
+        <div class="fcontact-item"><span class="fcontact-ico">📍</span>
+          <p>Số 40 ngõ 82 Phú Đô, Hà Nội<br>Hà Nội, Việt Nam</p>
+        </div>
+        <div class="fcontact-item"><span class="fcontact-ico">⏰</span>
+          <p>Làm việc 24/7<br>Kể cả ngày lễ</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Fullhouse Moving. Bảo lưu mọi quyền.</p>
+      <div class="footer-certs">
+        <span class="fcert">ISO 9001</span>
+        <span class="fcert">DMCA</span>
+        <span class="fcert">SSL Secure</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING ACTIONS -->
+  <div class="float-actions">
+    <a href="tel:0326533883" class="float-phone">📞 032 653 3883</a>
+    <a href="#" class="float-zalo">Z</a>
   </div>
-</footer>
 
-<!-- FLOATING ACTIONS -->
-<div class="float-actions">
-  <a href="tel:19009999" class="float-phone">📞 1900 9999</a>
-  <a href="#" class="float-zalo">Z</a>
-</div>
-
-<script>
-function toggleFaq(el){
-  const item=el.closest('.faq-item');
-  const allItems=document.querySelectorAll('.faq-item');
-  allItems.forEach(i=>{if(i!==item){i.classList.remove('open')}});
-  item.classList.toggle('open');
-}
-// City tag toggle
-document.querySelectorAll('.city-tag').forEach(tag=>{
-  tag.addEventListener('click',function(){
-    document.querySelectorAll('.city-tag').forEach(t=>t.classList.remove('active'));
-    this.classList.add('active');
-  });
-});
-// Process step hover
-document.querySelectorAll('.pstep').forEach(s=>{
-  s.addEventListener('mouseenter',function(){
-    document.querySelectorAll('.pstep').forEach(p=>p.classList.remove('active'));
-    this.classList.add('active');
-  });
-});
-// Scroll reveal animation
-const observer=new IntersectionObserver((entries)=>{
-  entries.forEach(e=>{
-    if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}
-  });
-},{threshold:0.1});
-document.querySelectorAll('.svc-card,.tcard,.why-point,.pstep,.cov-item').forEach(el=>{
-  el.style.opacity='0';
-  el.style.transform='translateY(24px)';
-  el.style.transition='opacity .5s ease, transform .5s ease';
-  observer.observe(el);
-});
-</script>
+  <script>
+    function toggleFaq(el) {
+      const item = el.closest('.faq-item');
+      const allItems = document.querySelectorAll('.faq-item');
+      allItems.forEach(i => { if (i !== item) { i.classList.remove('open') } });
+      item.classList.toggle('open');
+    }
+    // City tag toggle
+    document.querySelectorAll('.city-tag').forEach(tag => {
+      tag.addEventListener('click', function () {
+        document.querySelectorAll('.city-tag').forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+    // Process step hover
+    document.querySelectorAll('.pstep').forEach(s => {
+      s.addEventListener('mouseenter', function () {
+        document.querySelectorAll('.pstep').forEach(p => p.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+    // Scroll reveal animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)' }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.svc-card,.tcard,.why-point,.pstep,.cov-item').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = 'opacity .5s ease, transform .5s ease';
+      observer.observe(el);
+    });
+  </script>
 </body>
+
 </html>
